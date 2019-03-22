@@ -18,7 +18,7 @@ public function registry(){
     } catch (PDOException $e) {
         exit("ERROR:".$e->getMessage());
     }finally{
-        psrent::desconectar();
+        parent::desconectar();
     }
 }
 
