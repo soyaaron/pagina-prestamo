@@ -9,7 +9,7 @@ html {
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	background-image: url("fondo-login.jpg");
+	background-image: url("../img/fondo-login.jpg");
 	background-size: cover;
 		
 }

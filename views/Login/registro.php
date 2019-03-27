@@ -18,6 +18,9 @@
     </ul>
     <!-- fieldsets -->
     <fieldset>
+        <a href="index.php" class="float-right">
+            Atras
+            </a>
       <h2 class="fs-title">Crea tu cuenta</h2>
       <h3 class="fs-subtitle">Paso 1</h3>
       <input type="text" name="email" placeholder="Email" />
