@@ -49,7 +49,7 @@
 								</div>
 								
 								<div class="margin-top20 text-center">
-									No tienes cuenta? <a href="register.php">Crear ahora</a>
+									No tienes cuenta? <a href="registro.php">Crear ahora</a>
 								</div>
 							</form>
 						</div>
