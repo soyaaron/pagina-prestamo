@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- multistep form -->
-<form id="msform">
+<form action="../../controllers/registro_controler.php" method="POST" id="msform">
     <!-- progressbar -->
     <ul id="progressbar">
       <li class="active">Configuracion de cuenta</li>
@@ -33,11 +33,12 @@
       <h3 class="fs-subtitle"></h3>
       <input type="text" name="nombre" placeholder="Nombre" />
       <input type="text" name="apellido" placeholder="Apellido" />
+      <input type="date" name="fechaNacimiento" placeholder="Nacimiento" />
       <input type="text" name="cedula" placeholder="Cedula" />
       <input type="text" name="genero" placeholder="Genero" />
-      <input type="text" name="estado civil" placeholder="Estado civil" />
+      <input type="text" name="estadoCivil" placeholder="Estado civil" />
       <input type="text" name="nacionalidad" placeholder="Nacionalidad" />
-      <input type="text" name="direccion" placeholder="Direccion" />
+      <input type="text" name="calle" placeholder="Calle" />
       <input type="text" name="apartamento" placeholder="Apartamento" />
       <input type="text" name="provincia" placeholder="Provincia" />
       <input type="text" name="municipio" placeholder="Municipio" />

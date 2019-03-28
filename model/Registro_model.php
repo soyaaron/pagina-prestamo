@@ -1,24 +1,25 @@
 <?php
 
-require_once "Conection_BD";
+require_once "Conection_BD.php";
 
 
-class Conection_form extends Conection_BD{
+class Registro_model extends Conection_BD{
 
 
 # INSERTAR REGISTRO DEL USUARIO
 
 
 
-public function registry(){
+public function registry($nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$pass){
     $conection = parent::conectar();
     
     try {
-        $query = ("");
+        $query = "INSERT INTO usuario (nombre,apellido,fecha_nacimiento,cedula,sexo,estado_civil,nacionalidad,direccion_calle,apartamento,provincia,municipio,correo_electronico,pass) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
+        $conection->prepare($query)->execute([$nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$pass]);
+
+        return true;
     } catch (PDOException $e) {
         exit("ERROR:".$e->getMessage());
-    }finally{
-        parent::desconectar();
     }
 }
 
@@ -34,7 +35,7 @@ public function datos_usuario(){
     } catch (PDOException $e) {
         exit("ERROR:".$e->getMessage());
     }finally{
-        psrent::desconectar();
+        $conection = null;
     }
 }
     
@@ -49,7 +50,7 @@ public function insertar(){
     } catch (PDOException $e) {
         exit("ERROR:".$e->getMessage());
     }finally{
-        psrent::desconectar();
+        $conection = null;
     }
 }
 
@@ -63,7 +64,7 @@ public function login(){
     } catch (PDOException $e) {
         exit("ERROR:".$e->getMessage());
     }finally{
-       psrent::desconectar();
+        $conection = null;
     }
 }
 
