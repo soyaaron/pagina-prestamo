@@ -13,7 +13,7 @@
 			<div class="row justify-content-md-center h-100">
 				<div class="card-wrapper">
 					<div class="brand">
-						<img src="../dist/img/logo.jpg">
+						<!-- creo que se ve mas profesional sin la imagen de arriba-->
 					</div>
 					<div class="card fat">
 						<div class="card-body">
@@ -43,9 +43,10 @@
 								</div>
 
 								<div class="form-group no-margin">
-									<button type="submit" class="btn btn-primary btn-block">
-										Iniciar
-									</button>
+								<!--Modificado para que rediriga al dashboard-->
+									<input type="button" class="btn btn-primary btn-block" onclick="window.location='../Dashboard/dashboard.php'" class="Redirect"
+									value="Iniciar"/>
+																		
 								</div>
 								
 								<div class="margin-top20 text-center">
