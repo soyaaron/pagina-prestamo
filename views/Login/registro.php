@@ -37,6 +37,7 @@
       <input type="text" name="cedula" placeholder="Cedula" />
       <input type="text" name="genero" placeholder="Genero" />
       <input type="text" name="estadoCivil" placeholder="Estado civil" />
+      <input type="tel" name="telefono" placeholder="Telefono" />
       <input type="text" name="nacionalidad" placeholder="Nacionalidad" />
       <input type="text" name="calle" placeholder="Calle" />
       <input type="text" name="apartamento" placeholder="Apartamento" />
@@ -49,16 +50,14 @@
       <h2 class="fs-title">Datos del trabajo</h2>
       <h3 class="fs-subtitle"></h3>
       <input type="text" name="empresa" placeholder="Empresa" />
-      <input type="text" name="actividad laboral" placeholder="Actividad laboral" />
-      <input type="text" name="telefono" placeholder="Telefono" />
-      <input type="text" name="cargo" placeholder="Cargo" />
+      <input type="text" name="actividadLaboral" placeholder="Actividad laboral" />
+      <input type="tel" name="telefonoTrabajo" placeholder="Telefono" />
       <input type="text" name="anios" placeholder="Años" />
       <input type="text" name="meses" placeholder="Meses" />
       <input type="text" name="sueldo" placeholder="Sueldo" />
-      <input type="text" name="direccion" placeholder="Direccion" />
-      <input type="text" name="apartamento" placeholder="Apartamento" />
-      <input type="text" name="provincia" placeholder="Provincia" />
-      <input type="text" name="municipio" placeholder="Municipio" />
+      <input type="text" name="direccionCalleTrabajo" placeholder="Direccion" />
+      <input type="text" name="provinciaTrabajo" placeholder="Provincia" />
+      <input type="text" name="municipioTrabajo" placeholder="Municipio" />
       <!---
       <input type="text" name="fname" placeholder="First Name" />
       <input type="text" name="lname" placeholder="Last Name" />
