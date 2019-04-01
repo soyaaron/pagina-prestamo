@@ -5,28 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="views/dist/css/estilos.css">
-    <title>Document</title>
+     <link rel="stylesheet" href="views/dist/css/font.css">
+    <title>Energy Equipment Solutions</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body class="">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-                <a class="navbar-brand" href="#">Navbar</a>
+<body class="bg-dark ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white align-middl mb-0 h6" style="height: 50px; padding: 35px;">
+        <a class="navbar-brand" href="#">
+
+            <img src="views/dist/img/logo1.png" width="70px" alt="">
+     
+                <a class="navbar-brand" href="#" id="EES">
+
+                              <td class="align-top">Energy</td> <br>
+                              <td class="align-middle">Equipment</td> <br> 
+                              <td class="align-bottom">Solutions</td>
+                          
+                </a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto" id="datos">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="quienes-somos.html">Quienes somos? <span class="sr-only">(current)</span></a>
                     </li>
-                   
                     <li class="nav-item active">
-                      <a class="nav-link" href="views/login/index.php">Loggin <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="calculadora.html">Calculadora <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contactos.html">Contactos <span class="sr-only">(current)</span></a>
                     </li>
                   </ul>
+                  
                 </div>
+                <a class="nav-link" href="/Login/index.php">Iniciar Sesion <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="/Login/registro.php">Registrarse <span class="sr-only">(current)</span></a>
       </nav><br><br>
+
 
       <footer>
        
@@ -35,18 +52,10 @@
                      <div class="container-body">
          
                          <div class="colum1">
-                             <h1>Mas informacion de la compañia</h1>
+                             <h1>Energy Equipment Solutions</h1>
          
-                             <p>Esta compañia se dedica a la venta de software integrado con un 
-                             conjunto de cosas que no se lo que estoy escribiendo, este 
-                             texto es solo para llenara informacion en el cuadro de informacion 
-                             de la compañia.</p>
-
-                             <br><br>
-                             <!---Tasa--->
-                             <h1>Tasa</h1>
-                             <label><h1>5%</h1></label>
-
+                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat ex error! Ea maiores deserunt nisi sunt ullam quia excepturi laudantium blanditiis ab voluptatibus fuga, dolore possimus accusamus, perferendis reiciendis!</p>
+         
                          </div>
          
                          <div class="colum2">
@@ -54,24 +63,24 @@
                              <h1>Redes Sociales</h1>
          
                              <div class="row">
-                                 <img src="views/dist/icon/facebook.png">
-                                 <label>Siguenos en Facebook</label>
+                                <a href=""><img src="views/dist/icon/facebook.png">
+                                 <label>Siguenos en Facebook</label></a>
                              </div>
                              <div class="row">
-                                 <img src="views/dist/icon/twitter.png">
-                                 <label>Siguenos en Twitter</label>
+                                <a href=""><img src="views/dist/icon/twitter.png">
+                                 <label>Siguenos en Twitter</label></a>
                              </div>
                              <div class="row">
-                                 <img src="views/dist/icon/instagram.png">
-                                 <label>Siguenos en Instagram</label>
+                                <a href=""><img src="views/dist/icon/instagram.png">
+                                 <label>Siguenos en Instagram</label></a>
                              </div>
                              <div class="row">
-                                 <img src="views/dist/icon/google-plus.png">
-                                 <label>Siguenos en Google Plus</label>
+                                <a href=""><img src="views/dist/icon/google-plus.png">
+                                 <label>Siguenos en Google Plus</label></a>
                              </div>
                              <div class="row">
-                                 <img src="views/dist/icon/pinterest.png">
-                                 <label>Siguenos en Pinteres</label>
+                                <a href=""><img src="views/dist/icon/pinterest.png">
+                                 <label>Siguenos en Pinteres</label></a>
                              </div>
          
          
@@ -96,7 +105,7 @@
          
                              <div class="row2">
                                  <img src="views/dist/icon/contact.png">
-                                  <label>Cristiancedano1030@gmail.com</label>
+                                  <label>EnergyES@gmail.com</label>
                              </div>
          
                          </div>
@@ -108,7 +117,7 @@
                  <div class="container-footer">
                         <div class="footer">
                              <div class="copyright">
-                                 © 2017 Todos los Derechos Reservados | <a href="">Magtimus</a>
+                                 © 2019 Todos los Derechos Reservados | <a href="">EES</a>
                              </div>
          
                              <div class="information">
