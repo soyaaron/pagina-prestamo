@@ -1,11 +1,7 @@
-@font-face
-{
-   font-family: "Roboto";
-   src: url(../font/Roboto.ttf),
-   url(../font/Roboto-Light.ttf),
-   url(../font/Roboto-Regular.ttf),
-   url(../font/Roboto-Thin.ttf);
-}
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+
 @font-face
 {
    font-family: "Roverd";
@@ -13,12 +9,12 @@
 }
 html,body{
     height: 100%;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 #EES{
-    font-family: "Roverd";
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
-    line-height : 20px;
+    line-height : 21px;
 }
 #datos{
     margin-left: auto;

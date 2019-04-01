@@ -10,6 +10,15 @@ body{
 	background-size: cover;
 }
 
+#navbar{
+    height: 50px; 
+    padding: 35px;
+}
+
+#navbar li{
+    font-weight: bold;
+}
+
 #impuesto{
     font-size: 80px;
 }
