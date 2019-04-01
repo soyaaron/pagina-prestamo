@@ -29,13 +29,19 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto" id="datos">
                     <li class="nav-item active ">
-                        <a class="nav-link" href="quienes-somos.html">Quienes somos? <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="quienes-somos.html">
+                        <img src="views/dist/icon/interrogacion.png  " style="width: 16px; height: 16px;">
+                        Quienes somos? <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="calculadora.html">Calculadora <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="calculadora.html">
+                        <img src="views/dist/icon/calculadora.png" style="width: 16px; height: 16px;">
+                        Calculadora <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contactos.html">Contactos <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contactos.html">
+                        <img src="views/dist/icon/info.png" style="width: 16px; height: 16px;">
+                        Contactos <span class="sr-only">(current)</span></a>
                     </li>
                   </ul>
                   
