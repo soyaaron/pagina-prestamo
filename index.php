@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/estilos.css">
-     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="views/dist/css/estilos.css">
+     <link rel="stylesheet" href="views/dist/css/font.css">
     <title>Energy Equipment Solutions</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -13,7 +13,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-white align-middl mb-0 h6" style="height: 50px; padding: 35px;">
         <a class="navbar-brand" href="#">
 
-            <img src="img/logo1.png" width="70px" alt="">
+            <img src="views/dist/img/logo1.png" width="70px" alt="">
      
                 <a class="navbar-brand" href="#" id="EES">
 
@@ -63,23 +63,23 @@
                              <h1>Redes Sociales</h1>
          
                              <div class="row">
-                                <a href=""><img src="icon/facebook.png">
+                                <a href=""><img src="views/dist/icon/facebook.png">
                                  <label>Siguenos en Facebook</label></a>
                              </div>
                              <div class="row">
-                                <a href=""><img src="icon/twitter.png">
+                                <a href=""><img src="views/dist/icon/twitter.png">
                                  <label>Siguenos en Twitter</label></a>
                              </div>
                              <div class="row">
-                                <a href=""><img src="icon/instagram.png">
+                                <a href=""><img src="views/dist/icon/instagram.png">
                                  <label>Siguenos en Instagram</label></a>
                              </div>
                              <div class="row">
-                                <a href=""><img src="icon/google-plus.png">
+                                <a href=""><img src="views/dist/icon/google-plus.png">
                                  <label>Siguenos en Google Plus</label></a>
                              </div>
                              <div class="row">
-                                <a href=""><img src="icon/pinterest.png">
+                                <a href=""><img src="views/dist/icon/pinterest.png">
                                  <label>Siguenos en Pinteres</label></a>
                              </div>
          
@@ -91,7 +91,7 @@
                              <h1>Informacion Contactos</h1>
          
                              <div class="row2">
-                                 <img src="icon/house.png">
+                                 <img src="views/dist/icon/house.png">
                                  <label>La Romana, 
                                  Republica Dominicana
                                  Manuel del Cabral
@@ -99,12 +99,12 @@
                              </div>
          
                              <div class="row2">
-                                 <img src="icon/smartphone.png">
+                                 <img src="views/dist/icon/smartphone.png">
                                  <label>+1-829-395-2064</label>
                              </div>
          
                              <div class="row2">
-                                 <img src="icon/contact.png">
+                                 <img src="views/dist/icon/contact.png">
                                   <label>EnergyES@gmail.com</label>
                              </div>
          
