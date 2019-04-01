@@ -3,8 +3,16 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    
+}
+body{
+    background-image: url("../img/ees.jpg");
+	background-size: cover;
 }
 
+#impuesto{
+    font-size: 80px;
+}
 
 footer{
     width: 100%;

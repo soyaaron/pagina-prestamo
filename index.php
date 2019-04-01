@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="views/dist/css/estilos.css">
-     <link rel="stylesheet" href="views/dist/css/font.css">
+    <link rel="stylesheet" href="views/dist/css/font.css">
     <title>Energy Equipment Solutions</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body class="bg-dark ">
+<body class=" " id="back">
       <nav class="navbar navbar-expand-lg navbar-light bg-white align-middl mb-0 h6" style="height: 50px; padding: 35px;">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="">
 
             <img src="views/dist/img/logo1.png" width="70px" alt="">
      
-                <a class="navbar-brand" href="#" id="EES">
+                <a class="navbar-brand" href="" id="EES">
 
                               <td class="align-top">Energy</td> <br>
                               <td class="align-middle">Equipment</td> <br> 
@@ -29,27 +29,26 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto" id="datos">
                     <li class="nav-item active ">
-                        <a class="nav-link" href="quienes-somos.html">
+                        <a class="nav-link" href="quienes-somos.php">
                         <img src="views/dist/icon/interrogacion.png  " style="width: 16px; height: 16px;">
                         Quienes somos? <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="calculadora.html">
+                        <a class="nav-link" href="calculadora.php">
                         <img src="views/dist/icon/calculadora.png" style="width: 16px; height: 16px;">
                         Calculadora <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contactos.html">
+                        <a class="nav-link" href="contactos.php">
                         <img src="views/dist/icon/info.png" style="width: 16px; height: 16px;">
                         Contactos <span class="sr-only">(current)</span></a>
                     </li>
                   </ul>
                   
                 </div>
-                <a class="nav-link" href="/Login/index.php">Iniciar Sesion <span class="sr-only">(current)</span></a>
-                  <a class="nav-link" href="/Login/registro.php">Registrarse <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="views/Login/index.php">Iniciar Sesion <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="views/Login/registro.php">Registrarse <span class="sr-only">(current)</span></a>
       </nav><br><br>
-
 
       <footer>
        
@@ -61,7 +60,10 @@
                              <h1>Energy Equipment Solutions</h1>
          
                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat ex error! Ea maiores deserunt nisi sunt ullam quia excepturi laudantium blanditiis ab voluptatibus fuga, dolore possimus accusamus, perferendis reiciendis!</p>
-         
+
+                             <br>
+                             <h1>Tasa de impuestos</h1>
+                             <label for="" id="impuesto">15 %</label>
                          </div>
          
                          <div class="colum2">
@@ -80,14 +82,14 @@
                                 <a href=""><img src="views/dist/icon/instagram.png">
                                  <label>Siguenos en Instagram</label></a>
                              </div>
-                             <div class="row">
+                             <!--<div class="row">
                                 <a href=""><img src="views/dist/icon/google-plus.png">
                                  <label>Siguenos en Google Plus</label></a>
                              </div>
                              <div class="row">
                                 <a href=""><img src="views/dist/icon/pinterest.png">
                                  <label>Siguenos en Pinteres</label></a>
-                             </div>
+                             </div>-->
          
          
                          </div>
@@ -98,15 +100,12 @@
          
                              <div class="row2">
                                  <img src="views/dist/icon/house.png">
-                                 <label>La Romana, 
-                                 Republica Dominicana
-                                 Manuel del Cabral
-                                 Casa # 27</label>
+                                 <label>Av. Winston Churchill, Santo Domingo</label>
                              </div>
          
                              <div class="row2">
                                  <img src="views/dist/icon/smartphone.png">
-                                 <label>+1-829-395-2064</label>
+                                 <label>+1-849-351-2799</label>
                              </div>
          
                              <div class="row2">
