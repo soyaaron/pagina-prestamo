@@ -16,21 +16,31 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto" id="datos">
+
+                  <li class="nav-item active ">
+                        <a class="nav-link" href="index.php">
+                        <img src="views/dist/icon/home.png">
+                        Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+
                     <li class="nav-item active ">
                         <a class="nav-link" href="about.php">
-                        <img src="views/dist/icon/interrogacion.png  " style="width: 16px; height: 16px;">
+                        <img src="views/dist/icon/interrogacion.png">
                         Quienes somos? <span class="sr-only">(current)</span></a>
                     </li>
+
                     <li class="nav-item active">
                         <a class="nav-link" href="calc.php">
-                        <img src="views/dist/icon/calculadora.png" style="width: 16px; height: 16px;">
+                        <img src="views/dist/icon/calculadora.png">
                         Calculadora <span class="sr-only">(current)</span></a>
                     </li>
+
                     <li class="nav-item active">
                         <a class="nav-link" href="contacts.php">
-                        <img src="views/dist/icon/info.png" style="width: 16px; height: 16px;">
+                        <img src="views/dist/icon/info.png">
                         Contactos <span class="sr-only">(current)</span></a>
                     </li>
+                    
                   </ul>
                   
                 </div>
