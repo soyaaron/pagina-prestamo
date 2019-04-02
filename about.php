@@ -18,7 +18,7 @@
 
         <div id="body" class="m-3 p-3">
 
-                <img src="views/dist/img/ees.jpg" alt="">
+                
             
         </div>
 

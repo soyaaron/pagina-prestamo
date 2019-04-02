@@ -5,15 +5,19 @@
     font-family: sans-serif;
     
 }
-body{
-    background-image: url("../img/ees.jpg");
-	background-size: cover;
+#back{
+   /* background-image: url("../img/ees.jpg");
+    background-size: cover;*/
+    background-color: #202020;
+}
+#body{
+    background-color: white;
 }
 
 #navbar{
     height: 50px; 
     padding: 35px;
-}
+}   
 
 #navbar li{
     font-weight: bold;
