@@ -18,8 +18,9 @@
 					</div>
 					<div class="card fat">
 						<div class="card-body">
-								
+						<a href="../../index.php" class="float-right">Atras</a>
 							<h4 class="card-title">Iniciar sesion</h4>
+							
 							<form method="POST">
 							 
 								<div class="form-group">
