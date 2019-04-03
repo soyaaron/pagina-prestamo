@@ -10,7 +10,7 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque placeat ex error! Ea maiores deserunt nisi sunt ullam quia excepturi laudantium blanditiis ab voluptatibus fuga, dolore possimus accusamus, perferendis reiciendis!</p>
 
                     <br>
-                    <h1>Tasa de impuestos</h1>
+                    <h1>Tasa de interes</h1>
                     <label for="" id="impuesto">15 %</label>
                 </div>
 
@@ -48,7 +48,7 @@
 
                     <div class="row2">
                         <img src="views/dist/icon/house.png">
-                        <label>Av. Winston Churchill, Santo Domingo</label>
+                        <label>Calle Manuel de Jesús Troncoso 46, Santo Domingo</label>
                     </div>
 
                     <div class="row2">
@@ -78,6 +78,6 @@
                     </div>
                 </div>
 
-            </div>
+        </div>
         
 </footer>

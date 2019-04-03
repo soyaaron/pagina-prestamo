@@ -26,7 +26,7 @@
                     <li class="nav-item active ">
                         <a class="nav-link" href="about.php">
                         <img src="views/dist/icon/interrogacion.png">
-                        Quienes somos? <span class="sr-only">(current)</span></a>
+                        Sobre nosotros <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item active">
@@ -42,8 +42,8 @@
                     </li>
                     
                   </ul>
-                  
-                </div>
-                <a class="nav-link" href="views/Login/index.php">Iniciar Sesion <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="views/Login/index.php">Iniciar Sesion <span class="sr-only">(current)</span></a>
                   <a class="nav-link" href="views/Login/registro.php">Registrarse <span class="sr-only">(current)</span></a>
+                </div>
+                
       </nav>
