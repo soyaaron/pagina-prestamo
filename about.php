@@ -17,7 +17,7 @@
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
     <?php require "views/include/navbar.php" ?>
         <div class="col-md-12 p-0">
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid "id="parallax">
                 <div class="container">
                     <h1 class="display-4">¿Quiénes somos?</h1>
                     <p class="lead">Somos un equipo dedicado al software nos conocimos en el ITLA y desde entonces formamos el equipo mas desporpocional existente.</p>
@@ -80,28 +80,31 @@
                         </div>
                     </div>
                     <div class="row">
+                        <!--Brandor Medina-->
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
                             <img id="perfil" src="views/dist/img/brandor.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Brandor Medina</h2>
-                            <p class="mb-4">Soy un programador Junior, encargado de las vistas principales de esta pagina.</p><p>
+                            <p class="mb-4">Soy un programador Junior, encargado de la gestion de calidad del front end y creador las vistas principales de esta pagina.</p><p>
                             <a href="https://www.facebook.com/BrandorMedina" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
                             <a href="https://www.instagram.com/brandor_medina/" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
                             <a href="https://twitter.com/BrandorMedina" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
                             </p>
                         </div>
+                        <!--Reimy R. Mateo-->
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
                             <img id="perfil" src="views/dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Reimy R. Mateo</h2>
-                            <p class="mb-4">Este es un weon</p>                            <p>
+                            <p class="mb-4">Encargado de la vista del usuario,la cual incluye la vista principal del usuario, solicitud, los préstamos y cuotas</p>                            <p>
                             <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
                             </p>
                         </div>
+                        <!--Misael Mora Valerio-->
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
-                            <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
-                            <p class="mb-4">Este es un weon</p>                            <p>
+                            <img id="perfil" src="views/dist/img/misael.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <h2 class="text-black font-weight-light mb-4">Misael Mora</h2>
+                            <p class="mb-4">DBA junior encargando del diseño, arquitectura y todo lo relacionado con esta.</p>                            <p>
                             <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
@@ -110,7 +113,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/reimy.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
+                            <img id="perfil" src="views/dist/img/joneiry.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
                             <p class="mb-4">Este es un weon</p>                            <p>
                             <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>

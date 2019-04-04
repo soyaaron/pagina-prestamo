@@ -16,7 +16,7 @@
         <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
         <?php require "views/include/navbar.php" ?>
             <div class="col-md-12 p-0">
-                <div class="jumbotron jumbotron-fluid">
+                <div class="jumbotron jumbotron-fluid" id="parallax">
                     <div class="container">
                         <h1 class="display-4">Contactos</h1>
                         <p class="lead">Estamos abiertos para comunicarnos contigo.</p>
@@ -113,6 +113,7 @@
                                     <h3 class="h5 text-black mb-3">Más información</h3>
                                     <p>Puedes hacernos cualquier pregunta que desees, haremos lo mejor posible para responderte lo más rápido posible.</p>              
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>

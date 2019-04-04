@@ -14,11 +14,9 @@
 
 <body class=" " id="back">
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
-    <?php require "views/include/navbar.php" ?>
-
-        
+    <?php require "views/include/navbar.php" ?>        
         <div class="col-md-12 p-0">
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid" id="parallax">
                 <div class="container">
                     <h1 class="display-4">Calculadora</h1>
                     <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ducimus aliquam sint repellat, cum, voluptatem necessitatibus ratione ipsum beatae nobis facilis quos? Quod sunt sit perferendis dolorem ratione, incidunt autem!</p>

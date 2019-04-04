@@ -5,17 +5,39 @@
     font-family: sans-serif;
     
 }
-#back{
-   /* background-image: url("../img/ees.jpg");
-    background-size: cover;*/
+#back-index{
+    margin-top: 0px;
+    margin-left: 5px;
     background-color: #202020;
 }
 #body{
     background-color: white;
 }
+#back   {
+    background: url(../img/parallax.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+}
+#parallax{
+    color: #ffffff;
+    background: url(../img/parallax.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+
+}
 #perfil{
     width: 200px;
     height: 200px;
+}
+#social img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
 }
 #navbar{
     height: 50px;
@@ -41,7 +63,7 @@
 
 footer{
     width: 100%;
-    background: #202020;
+    background: #111111;
     color: white;   
     
 }
@@ -123,7 +145,7 @@ footer{
 
 .container-footer{
     width: 100%;  
-    background: #101010;
+    background: #111111;
 }
 
 .footer{
