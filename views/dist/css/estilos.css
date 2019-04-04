@@ -5,12 +5,19 @@
     font-family: sans-serif;
     
 }
-#back-index{
-    margin-top: 0px;
-    margin-left: 5px;
-    background-color: #202020;
+
+#index-ees{
+    width: 100%;
+    height: 100%;
+    background: url(../img/ees.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
+
 #body{
+    color: black;
     background-color: white;
 }
 #back   {
