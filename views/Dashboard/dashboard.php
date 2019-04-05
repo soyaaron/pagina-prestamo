@@ -2,13 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>Vista General2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../dist/css/AdminLTE.css">
     <link rel="stylesheet" href="../dist/css/skins/_all-skins.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-
 
 </head>
 
@@ -18,7 +17,7 @@
             <nav class="navbar navbar-static-top ">
             <div class="container-fluid">
                 <div class="navbar-header">
-                <a href="dashboard.php" class="navbar-brand"><b>Prestame</a>
+                <a href="dashboard.php" class="navbar-brand"><b>Administrador</a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
@@ -27,7 +26,7 @@
                 
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#"> Solicitar <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#"> Tasa de interes <span class="sr-only">(current)</span></a></li>
                     <li><a href="#">Opcion 2</a></li>    
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -37,7 +36,7 @@
                         <li><a href="#">Configuracion</a></li>
                         <li><a href="#">Ayuda</a></li>
                         <li class="divider"></li>
-                        <li><a href="#">Cerrar Sesión</a></li>
+                        <li><a href="../Login/index.php">Cerrar Sesión</a></li>
                     </ul>
                     </li>
                 </ul>
@@ -48,19 +47,38 @@
             </nav>
         </header>
 
-           <div class="info-box bg-blue">
-            <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
-            <div class="info-box-content">
-                <span class="info-box-text">Primer Prestamo</span>
-                <span class="info-box-number">20,000 $</span>
-                <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
+        <div class="col-md-4">
+            <div class="box box-solid box-warning">
+                <div class="box-header">
+                    <h3 class="box-title">Prestamos por cobrar</h3>
                 </div>
-                <span class="progress-description">
-                70% Increase in 30 Days
-                </span>
+                    <div class="box-body">
+                    Cuerpo
+                    </div>
             </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="box box-solid box-danger">
+                <div class="box-header">
+                    <h3 class="box-title">Prestamos pasados de fecha</h3>
+                </div>
+                    <div class="box-body">
+                    Cuerpo
+                    </div>
             </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="box box-solid box-success">
+                <div class="box-header">
+                    <h3 class="box-title">Prestamos cobrados</h3>
+                </div>
+                    <div class="box-body">
+                    Cuerpo
+                    </div>
+            </div>
+        </div>
 
             
 
