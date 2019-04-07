@@ -32,7 +32,6 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 mb-5">
-                                <form id="formulario" class="p-5 bg-white">
 
                                     <h1>Vista previa del prestamo</h1>
 
@@ -40,13 +39,11 @@
 
                                         <div class="col-md-6 mb-3 mb-md-0">
                                             <label class="text-dark" for="inputMonto">MONTO A SOLICITAR</label>
-                                            <input type="number" min="1" step="any" class="form-control" id="inputMonto" placeholder="Monto" >                                            
                                         </div>
 
                                         <div class="col-md-6">
                    
                                             <label class="text-dark" for="inputInteres">TASA DE INTERES %</label>
-                                            <input type="number" class="form-control" id="inputInteres" placeholder="Interes" disabled>     
                                         </div>
 
                                     </div>
@@ -58,14 +55,12 @@
                                         </div>
 
                                         <div class="col-md-6">
-                                            <h5><label class="text-dark" for="">RD$ </label> <label id="total" for="">0000.00</label> </h5>
                                         </div>
                                         
                                     </div>
 
                                     <div class="row form-group">
                                         <div class="col-md-12 ">
-                                            <button type="button" class="btn btn-primary py-2 px-4 text-white" id="Calcular" >Calcular</button>
                                         </div>
                                     </div>
                                 </form>
