@@ -10,8 +10,9 @@
                 
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#"> Tasa de interes <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Opcion 2</a></li>    
+                    <li><a href="adminsolicitud.php">Solicitudes</a></li>   .
+                    <li><a href="admintasas.php"> Administrar tasas</a></li>
+ 
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
