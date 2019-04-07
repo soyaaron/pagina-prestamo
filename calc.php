@@ -32,6 +32,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 mb-5">
+                                <!--formulariooooooooooooooooo0-->
                                 <form id="formulario" class="p-5 bg-white">
 
                                     <h1>Vista previa del prestamo</h1>
@@ -53,11 +54,8 @@
 
                                     <div class="row form-group">
 
-                                        <div class="col-md-6">
-                                            <h5>CUOTA MENSUAL: </h5>
-                                        </div>
-
-                                        <div class="col-md-6">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label class="text-dark" for=""><h5>CUOTA MENSUAL:</label></h5>
                                             <h5><label class="text-dark" for="">RD$ </label> <label id="total" for="">0000.00</label> </h5>
                                         </div>
                                         
@@ -65,7 +63,7 @@
 
                                     <div class="row form-group">
                                         <div class="col-md-12 ">
-                                            <button type="button" class="btn btn-primary py-2 px-4 text-white" id="Calcular" >Calcular</button>
+                                            <button type="submit" class="btn btn-primary py-2 px-4 text-white" id="Calcular" >Calcular</button>
                                         </div>
                                     </div>
                                 </form>

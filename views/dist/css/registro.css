@@ -5,16 +5,19 @@
 * {margin: 0; padding: 0;}
 
 html {
-	height: 100%;
+	
 	/*Image only BG fallback*/
 	
 	/*background = gradient + image pattern combo*/
-	background-image: url("../img/fondo-login.jpg");
-	background-size: cover;
+	
 		
 }
 
 body {
+	height: 100%;
+	background-image: url("../img/fondo-login.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 	font-family: montserrat, arial, verdana;
 }
 /*form styles*/
@@ -23,6 +26,9 @@ body {
 	margin: 50px auto;
 	text-align: center;
 	position: relative;
+}
+#inputGroupSelect02{
+	height: 50px;
 }
 #msform fieldset {
 	background: white;
