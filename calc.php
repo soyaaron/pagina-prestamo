@@ -14,7 +14,10 @@
 
 <body class=" " id="back">
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
-    <?php require "views/include/navbar.php" ?>        
+    <?php require "views/include/navbar.php" ?> 
+
+    <div id="body" class="m-3 ">
+
         <div class="col-md-12 p-0">
             <div class="jumbotron jumbotron-fluid" id="parallax">
                 <div class="container">
@@ -23,54 +26,39 @@
                 </div>
             </div>
         </div>
+
         <div class="col-md-12" >
-                <div id="body" class="m-3 ">
-                
-                    <h1>Datos Calculadora</h1>
-
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <label for="inputMonto">MONTO A SOLICITAR</label>
-                                <input type="number" min="1" step="any" class="form-control" id="inputMonto" placeholder="Monto" >
-                                </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputInteres">TASA DE INTERES %</label>
-                                <input type="number" class="form-control" id="inputInteres" placeholder="Interes" disabled>
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <legend class="row-form-label row-sm-2 pt-0">PLAZO DE PAGO</legend>
-                                <div class="row-sm-10">
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">3 Meses</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">6 Meses</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                <label class="form-check-label" for="inlineRadio3">1+ Años</label>
-                                </div>
-                                </div>
-                            </div>
-                            <div class="form-group col-md-6">
-                            <button type="button" class="btn btn-primary">Primary</button>
-                            </div>
-</div>
-                    </form>
-
-                    <h3>CUOTA MENSUAL: <label for="">RD$ </label> <label for>0000.00</label> </h3>
-
-                    
-                    
+            <h1>Vista previa del prestamo</h1><br>
+            
+                <div class="form-row-md-6">
+                    <div class="form-group col-md-3">
+                        <label for="inputMonto">MONTO A SOLICITAR</label>
+                        <input type="number" min="1" step="any" class="form-control" id="inputMonto" placeholder="Monto" >
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="inputInteres">TASA DE INTERES %</label>
+                        <input type="number" class="form-control" id="inputInteres" placeholder="Interes" disabled>
+                    </div>
                 </div>
-            </div>
+                <div class="form-grou">
+                <div class="form-group col-md-6">
+                        <h4>CUOTA MENSUAL <label for="">RD$ </label> <label for>0000.00</label> </h4>
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
+                </div>
+                <div class="row-md-6" >
+        <h4>Tasa de prestamo</h4>
+            <ul>
+                <li>A, para menos o igual a 25,000 pesos</li>
+                <li>B, para mas de 25,000 y menos o igual a 75,000 pesos</li>
+                <li>C, para mas de 75,000 y menos o igual a 125,000 pesos</li>
+                <li>D, para mas de 125,000 y menos o igual a 250,000 pesos</li>
+                <li>E, para mas de 250,000 y menos o igual a 500,000 pesos</li>
+            </ul>
         </div>
+        </div>
+       
+    </div>
     <!--Footer--Footer--Footer--Footer--Footer-->
     <?php require "views/include/footer.php" ?>
 
