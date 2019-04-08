@@ -50,14 +50,32 @@
                                         </div>
 
                                     </div>
+                                    
 
                                     <div class="row form-group">
+                                        <div class="col-md-12 btn-group btn-group-toggle" data-toggle="buttons" id="mlabel">
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="options" id="option1" autocomplete="off" > 3 Meses
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="options" id="option2" autocomplete="off"> 6 Meses
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="options" id="option3" autocomplete="off"> 9 Meses
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="options" id="option3" autocomplete="off"> 1+ Años
+                                            </label>
+                                            
+                                        </div>
+                                    </div>
 
-                                        <div class="col-md-6">
+                                    <div class="row form-group">
+                                        <div class="col-md-7">
                                             <h5>CUOTA MENSUAL: </h5>
                                         </div>
 
-                                        <div class="col-md-6">
+                                        <div class="col-md-7">
                                         <!--poner el valor del total-->
                                             <h5><label class="text-dark" for="">RD$ </label> <label id="total" for="">000.00</label> </h5>
                                         </div>
