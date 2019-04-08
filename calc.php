@@ -53,18 +53,15 @@
                                     
 
                                     <div class="row form-group">
-                                        <div class="col-md-12 btn-group btn-group-toggle" data-toggle="buttons" id="mlabel">
+                                        <div class="col-md-12 btn-group btn-group-toggle" data-toggle="buttons" id="mlabel  ">
                                             <label class="btn btn-secondary">
-                                                <input type="radio" name="options" id="option1" autocomplete="off" > 3 Meses
+                                                <input type="radio" name="options" id="option1" autocomplete="off" > 1 Año
                                             </label>
                                             <label class="btn btn-secondary">
-                                                <input type="radio" name="options" id="option2" autocomplete="off"> 6 Meses
+                                                <input type="radio" name="options" id="option2" autocomplete="off"> 2 Años
                                             </label>
                                             <label class="btn btn-secondary">
-                                                <input type="radio" name="options" id="option3" autocomplete="off"> 9 Meses
-                                            </label>
-                                            <label class="btn btn-secondary">
-                                                <input type="radio" name="options" id="option3" autocomplete="off"> 1+ Años
+                                                <input type="radio" name="options" id="option3" autocomplete="off"> 3 Años
                                             </label>
                                             
                                         </div>
