@@ -31,7 +31,7 @@
                             <span class="input-group-addon" id="basic-addon2">%</span>
                             </div>
 
-                            <button  onclick="alertatasa()" class="btn btn-default" type="button" id="aceptartasa">Aceptar</button>
+                           <br> <button  onclick="alertatasa()" class="btn btn-success" type="button" id="aceptartasa">Aceptar</button>
 
                          </div>
 
