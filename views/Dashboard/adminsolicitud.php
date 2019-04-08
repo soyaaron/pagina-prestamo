@@ -17,8 +17,22 @@
         <?php include "navbardentro.php"; ?>
         </header>
         
+        <div id="btnsolicitud">
+        <div class="col-md-2">
+        <div class="box box-danger">
+                        
+             <div class="box-body">
+              <input type="button" class="btn btn-primary btn-block" onclick="window.location='../Dashboard/solicitudpersonal.php'" class="Redirect"
+									value="Realizar solicitud en persona"/>
+                                
+              </div>
+                    </div>
+        </div>
+        </div>
+
+        <div id="rowbox">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-5">
 
                     <div class="box box-solid box-warning">
                         <div class="box-header">
@@ -284,30 +298,6 @@
 
         <div class="form-row">
 
-            <!--Seleccion de sexo garante-->
-                <select class="custom-select my-1 mr-sm-2" 
-                        id="SexoGarante">
-                    <option selected>Sexo</option>
-
-                    <option selected>Masculino</option>
-                    <option selected>Femenino</option>
-
-
-                </select>
-
-                <!--Seleccion de estado civil garante-->
-                    <select class="custom-select my-1 mr-sm-2" 
-                            id="EstadoCivilGarante">
-                        <option selected>Estado civil*</option>
-
-                        <option selected>Casado</option>
-                        <option selected>Soltero</option>
-
-
-
-                    </select>
-
-
         </div>
         <label for="Nacionalidad">Nacionalidad:</label>
 
@@ -411,6 +401,8 @@
                     </div>
             </div> 
         </div>
+        </div>
+
         <script src="../dist/js/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="../bootstrap/js/bootstrap.min.js"></script>
