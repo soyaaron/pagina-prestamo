@@ -40,8 +40,7 @@
       <input type="text" name="cedula" placeholder="Cedula" />
 
       <div class="input-group mb-2">
-        <select class="custom-select" id="inputGroupSelect02">
-          <option selected>Genero</option>
+        <select name="genero" class="custom-select" id="inputGroupSelect02">
           <option value="1">Masculino</option>
           <option value="2">Femenino</option>
         </select>

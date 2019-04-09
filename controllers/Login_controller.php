@@ -1,6 +1,6 @@
 <?php
 
-require_once("Login_model.php");
+require_once("../model/Login_model.php");
 
 $loginModel = new Login_model;
 
@@ -14,12 +14,12 @@ $confirm = $loginModel->login($email);
 
 # HACEMOS UN COMPARACION ENTRE EL PASSWORD INTRODUCIDO Y EL PASSWORD ENCRIPTADO PARA CONFIRMAR QUE EXISTE.
 foreach ($confirm as $user) {
-    if (password_verify($password,$user["pass"])) {
+    $pass = $user["pass"];
+    if (password_verify($password,$pass)) {
         session_start();
-        $_SESSION['user'] = $user["nombre"];
-        header("location: ");
-
-    }else{
-        header("location: ../views/Login/index.php");
+        $_SESSION["user"] = $user["nombre"];
+        header("location: ../views/Dashboard/dashboard.php");
     }
 }
+
+header("location: ../views/Login/index.php");

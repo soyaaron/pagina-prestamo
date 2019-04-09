@@ -46,7 +46,7 @@
 
 								<div class="form-group no-margin">
 								<!--Modificado para que rediriga al dashboard-->
-									<input type="button" class="btn btn-primary btn-block" onclick="window.location='../Dashboard/dashboard.php'" class="Redirect"
+									<input type="submit" class="btn btn-primary btn-block" class="Redirect"
 									value="Iniciar"/>
 																		
 								</div>

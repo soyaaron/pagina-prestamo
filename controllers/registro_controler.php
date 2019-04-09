@@ -25,7 +25,7 @@
 
  # METODO QUE INSERTA LOS DATOS PERSONALES DEL USUARIO.
 
- $insertar = $registro->registry($nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$pass);
+ $insertar = $registro->registry($nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$passCifrado);
 
 
  # ESTE METODO  SE ENCARGARA DE OBTENER EL "ID" DEL USUARIO.

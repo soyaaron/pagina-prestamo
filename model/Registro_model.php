@@ -10,6 +10,12 @@ class Registro_model extends Conection_BD{
 
 public function registry($nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$pass){
     $connection = parent::conectar();
+
+    if($sexo == "Masculino"){
+        $sexo = "M";
+    }else{
+        $sexo = "F";
+    }
     
     try {
         $query = "INSERT INTO usuario (nombre,apellido,fecha_nacimiento,cedula,sexo,estado_civil,nacionalidad,direccion_calle,apartamento,provincia,municipio,correo_electronico,pass) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
