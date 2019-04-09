@@ -16,13 +16,13 @@
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
     <?php require "views/include/navbar.php" ?> 
 
-    <div id="body" class="m-3 ">
+    <div id="body" class="m-3 bg-light ">
 
         <div class="col-md-12 p-0">
             <div class="jumbotron jumbotron-fluid" id="parallax">
                 <div class="container">
                     <h1 class="display-4">Calculadora</h1>
-                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia ducimus aliquam sint repellat, cum, voluptatem necessitatibus ratione ipsum beatae nobis facilis quos? Quod sunt sit perferendis dolorem ratione, incidunt autem!</p>
+                    <p class="lead">Aqui puedes previsualizar las tasas y cuentos para el prestamo que deceas realizar</p>
                 </div>
             </div>
         </div>
@@ -33,9 +33,13 @@
                         <div class="row">
                             <div class="col-md-7 mb-5">
                                 <form id="formulario" class="p-5 bg-white" action = "controllers/Calculadora_controller.php" method="POST">
-
-                                    <h1>Calculadora de Prestamos</h1>
-                                    <h6>Prestamos personales</h6>
+                                    <div class="col-md-12 mx-auto">
+                                        <h1 class="textcolorpurple">Calculadora de Prestamos</h1>
+                                        <div class="col-md-5 mx-auto text-black-50">
+                                            <h6 class="">Prestamos personales</h6>
+                                        </div>
+                                        
+                                    </div>
 
                                     <div class="row form-group">
                                         <div class="col-md-8 mb-3 mb-md-0">
@@ -66,16 +70,16 @@
 
                                     <div class="row form-group">
                                         <div class="col-md-12 ">
-                                            <button type="submit" class="btn btn-primary py-2 px-4 text-white" id="Calcular" >Calcular</button>
+                                            <button type="submit" class="btn btn-primary py-2 px-4 text-white bgcolorpurple" id="Calcular" >Calcular</button>
                                         </div>
                                     </div>
                                     
 
 
-                                    <h4>Resultado</h4>
+                                    <h3 class="textcolorpurple">Resultado</h3>
                                     <div class="row form-group">
                                         <div class="col-md-12">
-                                            <h5>
+                                            <h5  id="resultado">
                                                 Cuota Mensual
                                                 <label class="text-dark" for="">RD$ </label> 
                                                 <label class="text-dark" id="total" for="">000,000,000.00</label> 
@@ -85,7 +89,7 @@
 
                                     <div class="row form-group">
                                         <div class="col-md-12">
-                                            <h5>
+                                            <h5  id="resultado">
                                                 Monto Total
                                                 <label class="text-dark" for="">RD$ </label> 
                                                 <label class="text-dark" id="total" for="">000,000,000.00</label> 
