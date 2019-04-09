@@ -1,3 +1,8 @@
+<?php
+require_once 'model/Calculadora_Model.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,6 +37,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 mb-5">
+                            <!--Inicio del Formulario-->
                                 <form id="formulario" class="p-5 bg-white" action = "controllers/Calculadora_controller.php" method="POST">
 
                                     <h1>Vista previa del prestamo</h1>
@@ -55,13 +61,13 @@
                                     <div class="row form-group">
                                         <div class="col-md-12 btn-group btn-group-toggle" data-toggle="buttons" id="mlabel  ">
                                             <label class="btn btn-secondary">
-                                                <input type="radio" name="options" id="option1" autocomplete="off" > 1 Año
+                                                <input type="radio" name="options" value='opt1' id="option1" autocomplete="off"> 1 Año
                                             </label>
                                             <label class="btn btn-secondary">
-                                                <input type="radio" name="options" id="option2" autocomplete="off"> 2 Años
+                                                <input type="radio" name="options" value='opt2' id="option2" autocomplete="off"> 2 Años
                                             </label>
                                             <label class="btn btn-secondary">
-                                                <input type="radio" name="options" id="option3" autocomplete="off"> 3 Años
+                                                <input type="radio" name="options" value='opt3' id="option3" autocomplete="off"> 3 Años
                                             </label>
                                             
                                         </div>
@@ -74,7 +80,7 @@
 
                                         <div class="col-md-7">
                                         <!--poner el valor del total-->
-                                            <h5><label class="text-dark" for="">RD$ </label> <label id="total" for="">000.00</label> </h5>
+                                            <h5><label class="text-dark" for="">RD$ </label> <label id="total" for=""><?php  ?></label> </h5>
                                         </div>
                                         
                                     </div>
