@@ -17,8 +17,22 @@
         <?php include "navbardentro.php"; ?>
         </header>
         
+        <div id="btnsolicitud">
+        <div class="col-md-2">
+        <div class="box box-danger">
+                        
+             <div class="box-body">
+              <input type="button" class="btn btn-primary btn-block" onclick="window.location='../Dashboard/solicitudpersonal.php'" class="Redirect"
+									value="Realizar solicitud en persona"/>
+                                
+              </div>
+                    </div>
+        </div>
+        </div>
+
+        <div id="rowbox">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-5">
 
                     <div class="box box-solid box-warning">
                         <div class="box-header">
@@ -36,12 +50,10 @@
                                                 <td>Juan Perez</td>
                                                 <td>100,000 RD$</td>
                                                 <td>
-                                                    <button type="button" class="btn btn-flat">Ver mas </button>
+                                                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#VermasUsuario">Ver mas </button>
                                                 </td>
 
-                                                <td>
-                                                    <button type="button" class="btn btn-flat">Negar </button>
-                                                </td>
+                                               
                                             </tr>
                                         </tbody>
                                 
@@ -49,6 +61,276 @@
                                 
                                 </div>
                     </div>
+
+                    <div class="modal fade" id="VermasUsuario">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Informacion sobre prestamo</h4>
+                            </div>
+                            <div class="modal-body">
+
+
+<div>
+
+        <label>Nombre: </label>
+            <input type="text" class="form-control" placeholder="Nombre del usuario" id="NombreUsuario" readonly>
+    <br>
+            <label>• Prestamo solicitado: </label>
+            <div class="input-group">
+
+                <div class="input-group-prepend">
+                    <span class="input-group-text">RD$</span>
+                </div>
+                    <input type="number" class="form-control" id="monto" readonly>
+            </div>
+            <br>
+
+        <label >Cedula de identidad:</label>
+
+            <input type="number" class="form-control" placeholder="Numero de cedula" id="cedula" readonly>
+
+
+<label for="Nacionalidad">Nacionalidad:</label>
+
+<input type="text" class="form-control" placeholder="País" id="nacionalidad" readonly>
+
+</div>
+<h5>• Datos de domicilio: Provincia, municipio, calle, edificio</h5>
+
+    <div class="row">
+
+            <div class="col-xs-2">
+
+        <input type="text" class="form-control" placeholder="Provincia" id="provincia" readonly>
+
+        </div>
+        <div class="col-xs-2">
+
+            <input type="text" class="form-control" placeholder="Municipio" id="municipio" readonly>
+            
+        </div>
+
+        <div class="col-xs-3">
+                <input  type="text" class="form-control" placeholder="Calle" id="direccion_calle" readonly>
+        </div>
+        <div class="col-xs-3">
+            <input type="text" class="form-control" placeholder="Numerp apc/edificio*" id="apartamento_edificio" readonly>
+        </div>
+
+        
+    </div>
+
+    <br>
+    <h5>• Formas de contacto: </h5>
+
+    <div class="form-row">
+
+        <div class="col">
+            <label >Telefono principal* </label>
+
+            <!--Entrada telefnono principal-->
+                <input type="number" class="form-control"
+                       id="TelefonoPrincipalUsuario">
+        </div>
+
+        <div class="col">
+
+            <label >Correo electronico* </label>
+
+            <!--Entrada correo electronico-->
+                <input type="text" class="form-control"
+                       id="CorreoUsuario">
+        </div>
+
+    </div>
+
+    <div class="form-row">
+
+        <div class="col">
+            <label >Telefono secundario</label>
+
+            <!--Entrada telefnono secundario-->
+                <input type="number" class="form-control"
+                       id="TelefonoSecundarioUsuario">
+        </div>
+
+
+        <div class="col">
+
+            <label >Telefono Oficina</label>
+
+            <!--Entrada telefnono oficina-->
+                <input type="number" class="form-control"
+                       id="TelefonoOficinaUsuario">
+
+        </div>
+
+
+    </div>
+
+    <br>
+    <h5>• Datos laborales: </h5>
+
+    <div class="form-row">
+
+        <div class="col">
+            <label >Nombre de empresa </label>
+
+            <!--Entrada Nombre empresa-->
+
+                <input type="text" class="form-control"
+                       id="NombreEmpresaUsuario">
+        </div>
+
+        <div class="col">
+
+            <label >Actividad economica </label>
+
+            <!--Entrada actividad economica-->
+                <input type="text" class="form-control"
+                       id="ActEconomicaUsuario">
+        </div>
+
+    </div>
+
+    <label for=""> Telefono de la empresa</label>
+
+    <!--Entrada telefono empresa empresa-->
+
+        <input type="text" class="form-control"
+               id="TelefonoEmpresaUsuario">
+
+
+        <br>
+        <h5>• Profesión:</h5>
+
+        <div class="form-row">
+
+
+            <div class="col">
+                <label for=" ">Nombre de empresa </label>
+
+                <!--entrada nombre empresa-->
+                    <input type="text" class="form-control"
+                           id="NomnbreEmpresa">
+            </div>
+
+            <div class="col">
+
+                <label for=" ">Actividad economica </label>
+
+                <!--entrada actividad economica-->
+                    <input type="text" class="form-control"
+                           id="ActividadEconomica">
+            </div>
+
+        </div>
+
+
+        <br>
+        <h6>Ingresos: </h6>
+
+        <div class="form-row">
+
+
+            <div class="col">
+
+
+                <label for=" ">Mensual* </label>
+
+
+                    <div class="input-group  mt-3"
+                        >
+
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">RD$</span>
+                        </div>
+
+                        <!--entrada ingresos mensual-->
+                            <input type="text" class="form-control"
+                                    id="IngresosMenUsuarios">
+                    </div>
+
+            </div>
+
+            <div class="col">
+
+                <label for=" ">Otros ingresos* </label>
+
+                <div class="input-group  mt-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">RD$</span>
+
+                        <!--entrada otros ingresos-->
+                            <input type="text" class="form-control" 
+                                   id="otrosIngresos">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br>
+        <h5>• Informacion de garante: </h5>
+
+        <div class="form-row">
+            <div class="col">
+                <label for=" ">Nombre* </label>
+
+                <!--entrada de nombre garante-->
+                    <input type="text" class="form-control"
+                           id="NombreGarante">
+            </div>
+
+            <div class="col">
+
+                <label for=" ">Apellido* </label>
+
+                <!--entrada de apellido garante-->
+                    <input type="text" class="form-control"
+                           id="ApellidoGarante">
+            </div>
+
+        </div>
+
+        <div class="form-row">
+
+        </div>
+        <label for="Nacionalidad">Nacionalidad:</label>
+
+        <!--Seleccion de nacionalidad garante-->
+            <select class="custom-select my-1 mr-sm-2" 
+                    id="NacionalidadGarante">
+                <option selected>Nacionalidad*</option>
+            </select>
+
+            <div class="col">
+                <label for=" ">Cedula de identidad* </label>
+
+                <!--entrada  cedula garante-->
+                    <input type="number" class="form-control" placeholder="001-00000000000-1"
+                          id="CedulaGarante" >
+            </div>
+
+
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-success">Aprobar Prestamo</button>
+                                <button type="button" class="btn btn-danger">Negar Prestamo</button>
+                            </div>
+                            </div>
+                            <!-- /.modal-content -->
+                        </div>
+                        <!-- /.modal-dialog -->
+                        </div>
+                        <!-- /.modal -->
 
                     <div class="box box-solid box-danger">
                         <div class="box-header">
@@ -68,7 +350,7 @@
                                                 <td>Juan Perez</td>
                                                 <td>100,000 RD$</td>
                                                 <td>
-                                                    <button type="button" class="btn btn-flat">Ver mas </button>
+                                                    <button type="button" class="btn btn-flat">Ver mas</button>
                                                 </td>
 
                                                 <td>
@@ -81,6 +363,8 @@
                             
                             </div>
                     </div>
+
+                          
 
                     <div class="box box-solid box-success">
                         <div class="box-header">
@@ -117,12 +401,11 @@
                     </div>
             </div> 
         </div>
+        </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="../dist/js/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <script src="/themes/AdminLTE/bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="/themes/AdminLTE/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
         <script src="../dist/js/app.js"></script>
 
      </body>

@@ -1,8 +1,3 @@
-<?php
-require_once 'model/Calculadora_Model.php';
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,52 +32,30 @@ require_once 'model/Calculadora_Model.php';
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 mb-5">
-                            <!--Inicio del Formulario-->
                                 <form id="formulario" class="p-5 bg-white" action = "controllers/Calculadora_controller.php" method="POST">
 
-                                    <h1>Vista previa del prestamo</h1>
+                                    <h1>Calculadora de Prestamos</h1>
+                                    <h6>Prestamos personales</h6>
 
                                     <div class="row form-group">
-
-                                        <div class="col-md-6 mb-3 mb-md-0">
-                                            <label class="text-dark" for="inputMonto">MONTO A SOLICITAR</label>
-                                            <input type="number" min="1" step="any" class="form-control" id="inputMonto" name="inputMonto" placeholder="Monto" >                                            
-                                        </div>
-
-                                        <div class="col-md-6">
-                   
-                                            <label class="text-dark" for="inputInteres">TASA DE INTERES %</label>
-                                            <input type="number" class="form-control" id="inputInteres"  placeholder="Interes" disabled >     
-                                        </div>
-
-                                    </div>
-                                    
-
-                                    <div class="row form-group">
-                                        <div class="col-md-12 btn-group btn-group-toggle" data-toggle="buttons" id="mlabel  ">
-                                            <label class="btn btn-secondary">
-                                                <input type="radio" name="options" value='opt1' id="option1" autocomplete="off"> 1 Año
-                                            </label>
-                                            <label class="btn btn-secondary">
-                                                <input type="radio" name="options" value='opt2' id="option2" autocomplete="off"> 2 Años
-                                            </label>
-                                            <label class="btn btn-secondary">
-                                                <input type="radio" name="options" value='opt3' id="option3" autocomplete="off"> 3 Años
-                                            </label>
-                                            
+                                        <div class="col-md-8 mb-3 mb-md-0">
+                                            <label class="text-dark" for="inputMonto">Monto Solicitado</label>
+                                            <input type="number" min="1" step="any" class="form-control" id="inputMonto" name="inputMonto" placeholder="RD$ 0.00" >                                            
                                         </div>
                                     </div>
 
                                     <div class="row form-group">
-                                        <div class="col-md-7">
-                                            <h5>CUOTA MENSUAL: </h5>
+                                        <div class="col-md-8">
+                                            <label class="text-dark" for="inputInteres">Tasa Interes</label>
+                                            <input type="number" class="form-control" id="inputInteres"  placeholder="1.00%" disabled >     
                                         </div>
+                                    </div>
 
-                                        <div class="col-md-7">
-                                        <!--poner el valor del total-->
-                                            <h5><label class="text-dark" for="">RD$ </label> <label id="total" for=""><?php  ?></label> </h5>
+                                    <div class="row form-group">
+                                        <div class="col-md-8">
+                                            <label class="text-dark" for="inputTiempopago">Tiempo de Pago</label>
+                                            <input type="number" class="form-control" id="inputTiempopago"  placeholder="1" >     
                                         </div>
-                                        
                                     </div>
 
                                     <div class="row form-group">
@@ -90,18 +63,48 @@ require_once 'model/Calculadora_Model.php';
                                             <button type="submit" class="btn btn-primary py-2 px-4 text-white" id="Calcular" >Calcular</button>
                                         </div>
                                     </div>
+                                    
+
+
+                                    <h4>Resultado</h4>
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <h5>
+                                                Cuota Mensual
+                                                <label class="text-dark" for="">RD$ </label> 
+                                                <label class="text-dark" id="total" for="">000,000,000.00</label> 
+                                            </h5>
+                                        </div>
+                                    </div>
+
+                                    <div class="row form-group">
+                                        <div class="col-md-12">
+                                            <h5>
+                                                Monto Total
+                                                <label class="text-dark" for="">RD$ </label> 
+                                                <label class="text-dark" id="total" for="">000,000,000.00</label> 
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <p>Esta información es una proyección, la cual puede variar por diversas razones, tales como: Atraso, pagos incompletos,
+                                     abonos extraordinarios a capital, etc.</p>
                                 </form>
+                                <div class="col-md-12">
+                                    
+                                </div>
                             </div>
+
+
                             <div class="col-md-5">
                             
                                 <div class="p-4 mb-3 bg-white">
-                                <h4>Tasa de prestamo</h4>
+                                <h4>Política de Tasas Actuall</h4>
                                     <ul>
-                                        <li>A, para menos o igual a 25,000 pesos</li>
-                                        <li>B, para mas de 25,000 y menos o igual a 75,000 pesos</li>
-                                        <li>C, para mas de 75,000 y menos o igual a 125,000 pesos</li>
-                                        <li>D, para mas de 125,000 y menos o igual a 250,000 pesos</li>
-                                        <li>E, para mas de 250,000 y menos o igual a 500,000 pesos</li>
+                                        <li>35% para menos o igual a 25,000 pesos</li>
+                                        <li>30% para mas de 25,000 y menos o igual a 75,000 pesos.</li>
+                                        <li>25% para mas de 75,000 y menos o igual a 125,000 pesos</li>
+                                        <li>20% para mas de 125,000 y menos o igual a 250,000 pesos</li>
+                                        <li>15% para mas de 250,000 y menos o igual a 500,000 pesos</li>
                                     </ul>
                                 </div>
                             
