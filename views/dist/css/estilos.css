@@ -79,6 +79,22 @@
     width: 20px; 
     height: 20px;
 }
+
+#resultado{
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: #43425D;
+}
+
+.textcolorpurple{
+    color: #43425D;
+}
+.bgcolorpurple{
+    background: #43425D;
+    background-color: #43425D;
+    color: red;
+}
+
 #impuesto{
     font-size: 80px;
 }
