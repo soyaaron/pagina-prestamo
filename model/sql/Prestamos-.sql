@@ -15,7 +15,7 @@ CREATE TABLE usuario(
     provincia VARCHAR(55) NOT NULL,
     municipio VARCHAR(55) NOT NULL,
     correo_electronico VARCHAR(55) NOT NULL,
-    pass varchar (55) not null,
+    pass varchar (180) not null,
     estrellas INT, -- Valores del 1 al 4
     CONSTRAINT PK_usuario PRIMARY KEY (id_usuario)
 );

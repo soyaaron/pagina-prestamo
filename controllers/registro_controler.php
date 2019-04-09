@@ -19,11 +19,13 @@
  $direccionCalleTrabajo = $_POST['direccionCalleTrabajo'];  $provinciaTrabajo = $_POST['provinciaTrabajo'];
  $municipioTrabajo = $_POST['municipioTrabajo'];
 
+ # SIFRADO DEL PASSWORD.
+ $passCifrado = password_hash($pass,PASSWORD_DEFAULT);
 
 
  # METODO QUE INSERTA LOS DATOS PERSONALES DEL USUARIO.
 
- $insertar = $registro->registry($nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$pass);
+ $insertar = $registro->registry($nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$passCifrado);
 
 
  # ESTE METODO  SE ENCARGARA DE OBTENER EL "ID" DEL USUARIO.
@@ -35,10 +37,6 @@
  # ESTE METODO TOMARA EL "ID"  QUE DEVUELE EL METODO SLECT  COMO REFERENCIA  PARA SABER A CUAL USUARIO ASIGNARA LOS DATOS DE LA EMPRRESA QUE DEBE DE INSERTAR.
  $registro->datosEmpresa($empresa,$actividadLaboral,$telefonoTrabajo,$years,$meses,$sueldo,$direccionCalleTrabajo,$provinciaTrabajo,$municipioTrabajo,$resultado);
     
-
-
- 
-
 
 
 

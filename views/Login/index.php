@@ -21,7 +21,7 @@
 						<a href="../../index.php" class="float-right">Atras</a>
 							<h4 class="card-title">Iniciar sesion</h4>
 							
-							<form method="POST">
+							<form action="../../controllers/Login_controller.php" method="POST">
 							 
 								<div class="form-group">
 									<label for="email">E-Mail</label>
@@ -46,7 +46,7 @@
 
 								<div class="form-group no-margin">
 								<!--Modificado para que rediriga al dashboard-->
-									<input type="button" class="btn btn-primary btn-block" onclick="window.location='../Dashboard/dashboard.php'" class="Redirect"
+									<input type="submit" class="btn btn-primary btn-block" class="Redirect"
 									value="Iniciar"/>
 																		
 								</div>
