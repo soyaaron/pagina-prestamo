@@ -11,8 +11,20 @@
 
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="adminsolicitud.php">Solicitudes</a></li> .
-                            <li><a href="admintasas.php"> Administrar tasas</a></li>
+
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solicitudes <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="../Dashboard/adminsolicitud.php">Recientes</a></li>
+                                    <li><a href="../Dashboard/solaprovada.php">Aprovadas</a></li>
+                                    <li><a href="../Dashboard/solrechazada.php">Rechazadas</a></li>
+                            </li>
+                        </ul>
+
+                        
+
+                        <li><a href="admintasas.php"> Administrar tasas</a></li>
 
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
@@ -34,22 +46,19 @@
             </nav>
 
             <!-- Left side column. contains the logo and sidebar -->
-            <aside class="main-sidebar">
+<aside class="main-sidebar">
 
-                <!-- sidebar: style can be found in sidebar.less -->
-                <section class="sidebar">
-                    <!-- Sidebar Menu -->
-                    <ul class="sidebar-menu" data-widget="tree">
-                        <!-- Optionally, you can add icons to the links -->
-                        <input type="button" class="btn btn-primary btn-block"
-                            onclick="window.location='../Dashboard/solicitudpersonal.php'" class="Redirect"
-                            value="Solicitud en persona" />
-                        <input type="button" class="btn btn-primary btn-block"
-                            onclick="window.location='../Dashboard/solicitudpersonal.php'" class="Redirect"
-                            value="Fecha" />
+<!-- sidebar: style can be found in sidebar.less -->
+<section class="sidebar">
 
-                    </ul>
-                    <!-- /.sidebar-menu -->
-                </section>
-                <!-- /.sidebar -->
-            </aside>
+  <!-- Sidebar Menu -->
+  <ul class="sidebar-menu" data-widget="tree">
+    <li class="header">HEADER</li>
+    <!-- Optionally, you can add icons to the links -->
+    <li class="active"><a href="solicitudpersonal.php"><i class="fa fa-link"></i> <span>Solicitud personal</span></a></li>
+    
+  </ul>
+  <!-- /.sidebar-menu -->
+</section>
+<!-- /.sidebar -->
+</aside>
