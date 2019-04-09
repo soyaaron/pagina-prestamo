@@ -19,7 +19,10 @@ if ($confirm) {
         if(password_verify($password,$pass)) {
             session_start();
             $_SESSION["user"] = $user["nombre"];
+
             header("location: ../views/Dashboard/dashboard.php");
+        }else{
+            header("location: ../views/Login/index.php"); 
         }
     }
 }else{
