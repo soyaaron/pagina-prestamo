@@ -74,7 +74,7 @@
       <input type="text" name="phone" placeholder="Phone" />
       <textarea name="address" placeholder="Address"></textarea>-->
       <input type="button" name="previous" class="previous action-button" value="Anterior" />
-      <input type="submit" name="submit" class="submit action-button" value="Enviar" />
+      <input type="submit" name="submit" class="btn btn-primary" value="Enviar" />
     </fieldset>
   </form>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
