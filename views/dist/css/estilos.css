@@ -22,9 +22,21 @@
     background-color: white;
 }
 
-#mlabel label{
+#inputTiempo{
+    width: 25px;
+    height: 40px;
+    margin-top: 25px;
+    padding-left: 0px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+#inputTiempo label{
+    width: 25px;
+    height: 40px;
     margin: 0px;
 }
+
 #back   {
     background: url(../img/parallax.jpg);
     background-repeat: repeat;

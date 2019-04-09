@@ -57,7 +57,6 @@ require_once 'model/Calculadora_Model.php';
 
                                     </div>
                                     
-
                                     <div class="row form-group">
                                         <div class="col-md-12 btn-group btn-group-toggle" data-toggle="buttons" id="mlabel  ">
                                             <label class="btn btn-secondary">

@@ -51,12 +51,18 @@
                                         </div>
                                     </div>
 
-                                    <div class="row form-group">
-                                        <div class="col-md-8">
-                                            <label class="text-dark" for="inputTiempopago">Tiempo de Pago</label>
-                                            <input type="number" class="form-control" id="inputTiempopago"  placeholder="1" >     
+                                    <div class="col-md-8 btn-group btn-group-toggle" data-toggle="buttons" id="inputTiempo">
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="options" value='opt1' id="option1" autocomplete="off"> 1 Año
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="options" value='opt2' id="option2" autocomplete="off"> 2 Años
+                                            </label>
+                                            <label class="btn btn-secondary">
+                                                <input type="radio" name="options" value='opt3' id="option3" autocomplete="off"> 3 Años
+                                            </label>
+                                            
                                         </div>
-                                    </div>
 
                                     <div class="row form-group">
                                         <div class="col-md-12 ">
