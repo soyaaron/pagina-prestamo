@@ -21,5 +21,4 @@ foreach ($confirm as $user) {
         header("location: ../views/Dashboard/dashboard.php");
     }
 }
-
 header("location: ../views/Login/index.php");
