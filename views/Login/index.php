@@ -21,7 +21,7 @@
 						<a href="../../index.php" class="float-right">Atras</a>
 							<h4 class="card-title">Iniciar sesion</h4>
 							
-							<form method="POST">
+							<form action="../../controllers/Login_controller.php" method="POST">
 							 
 								<div class="form-group">
 									<label for="email">E-Mail</label>

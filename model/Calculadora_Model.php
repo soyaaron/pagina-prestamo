@@ -8,17 +8,17 @@ class Calculadora_Model extends Conection_BD{
 
     //Seleccioname los porcentajes del usuario
     public function TasaInteres($identificador){
-        $conection = parent::conectar();
+        $connection = parent::conectar();
         
         try {
             
             $query = "SELECT porcentaje FROM tasa WHERE identificador='$identificador'";
-            $tasa = $conection->query($query)->fetch();
+            $tasa = $connection->query($query)->fetch();
             return $tasa;
         } catch (PDOException $e) {
             exit("ERROR:".$e->getMessage());
         }finally{
-            $conection = null;
+            $connection = null;
         }
     }
     
