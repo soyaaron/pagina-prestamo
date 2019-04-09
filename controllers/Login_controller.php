@@ -13,12 +13,15 @@ $password = $_POST["password"];
 $confirm = $loginModel->login($email);
 
 # HACEMOS UN COMPARACION ENTRE EL PASSWORD INTRODUCIDO Y EL PASSWORD ENCRIPTADO PARA CONFIRMAR QUE EXISTE.
-foreach ($confirm as $user) {
-    $pass = $user["pass"];
-    if (password_verify($password,$pass)) {
-        session_start();
-        $_SESSION["user"] = $user["nombre"];
-        header("location: ../views/Dashboard/dashboard.php");
+if ($confirm) {
+   foreach ($confirm as $user) {
+         $pass = $user["pass"];
+        if(password_verify($password,$pass)) {
+            session_start();
+            $_SESSION["user"] = $user["nombre"];
+            header("location: ../views/Dashboard/dashboard.php");
+        }
     }
+}else{
+    header("location: ../views/Login/index.php");
 }
-header("location: ../views/Login/index.php");
