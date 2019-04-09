@@ -36,6 +36,8 @@
 
  # ESTE METODO TOMARA EL "ID"  QUE DEVUELE EL METODO SLECT  COMO REFERENCIA  PARA SABER A CUAL USUARIO ASIGNARA LOS DATOS DE LA EMPRRESA QUE DEBE DE INSERTAR.
  $registro->datosEmpresa($empresa,$actividadLaboral,$telefonoTrabajo,$years,$meses,$sueldo,$direccionCalleTrabajo,$provinciaTrabajo,$municipioTrabajo,$resultado);
+
+ header("location: ../views/Login/index.php");
     
 
 

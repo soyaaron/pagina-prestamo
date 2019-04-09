@@ -37,7 +37,6 @@
       <input type="text" name="apellido" placeholder="Apellido" />
       <input type="date" name="fechaNacimiento" placeholder="Nacimiento" />
       <input type="text" name="cedula" placeholder="Cedula" />
-      <input type="text" name="cedula" placeholder="Cedula" />
 
       <div class="input-group mb-2">
         <select name="genero" class="custom-select" id="inputGroupSelect02">
