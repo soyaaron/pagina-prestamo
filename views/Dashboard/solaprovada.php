@@ -29,22 +29,17 @@
 
                     <table class="table">
                         <tbody>
-                        <tr>
+                            <tr>
                                 <th>Nombre</th>
                                 <th>Cantidad</th>
-                                <th>Tiempo</th>
-                                <th>Descripcion</th>
-                                <th>Fecha</th>
-                                <th></th>
-
+                                <th> </th>
                             </tr>
                             <tr>
-                                <td>id_usuario_solicitante</td>
-                                <td>monto</td>
-                                <td>tiempo</td>
-                                <td>descripcion</td>
-                                <td>fecha </td>
-                                <td></td>
+                                <td>Juan Perez</td>
+                                <td>100,000 RD$</td>
+                                <td>
+                                    <button type="button" class="btn btn-flat">Ver mas </button>
+                                </td>
 
                             </tr>
                         </tbody>
