@@ -39,6 +39,7 @@
                                 <th>Nombre</th>
                                 <th>Monto a pagar</th>
                                 <th>Monto pagado</th>
+                                <th>Fecha</th>
                                 <th>Fecha de pago</th>
                                 <th>Estado</th>
 
@@ -47,6 +48,7 @@
                                 <td>id_usuario_solicitante</td>
                                 <td>monto_Pagar</td>
                                 <td>monto_Pagado</td>
+                                <td>fecha</td>
                                 <td>fecha_pago</td>
                                 <td>estado</td>
 
