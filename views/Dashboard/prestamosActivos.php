@@ -49,7 +49,7 @@
                                 <td>monto_Pagar</td>
                                 <td>monto_Pagado</td>
                                 <td>fecha_pago</td>
-                                <td></td>
+                                <td><a class="btn btn-default" href="../dashboard/facturaprestamo.php" type="button">Cobrar prestamo </a></td>
 
 
                             </tr>
@@ -86,7 +86,7 @@
                                 <td>monto_Pagado</td>
                                 <td>fecha_pago</td>
                                 <td>dias_atraso_pago</td>
-                                <td></td>
+                                <td><a class="btn btn-default" href="../dashboard/facturaprestamo.php" type="button">Cobrar prestamo </a></td>
 
 
                             </tr>

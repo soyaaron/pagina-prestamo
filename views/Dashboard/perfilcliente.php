@@ -23,7 +23,7 @@
     <div class="row ">
 
         <div class="col-md-6">
-            
+
             <div class="box box-solid box-success">
                 <div class="box-header">
                     <h3 class="box-title">Perfil del cliente</h3>
