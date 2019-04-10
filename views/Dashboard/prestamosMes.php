@@ -36,44 +36,44 @@
 
                     <div class="row">
                         <div class="col-md-3">
-                            <h1><a href="vistamensual.php">Enero</a></h1>
+                            <h1><a href="vistamensual.php" id="enero">Enero</a></h1>
                         </div>
                         <div class="col-md-3">
-                            <h1><a href="vistamensual.php">Febrero</a></h1>
+                            <h1><a href="vistamensual.php" id="febrero">Febrero</a></h1>
                         </div>
                         <div class="col-md-3">
-                            <h1> <a href="vistamensual.php">Marzo</a> </h1>
+                            <h1> <a href="vistamensual.php" id="marzo">Marzo</a> </h1>
                         </div>
                         <div class="col-md-3">
-                            <h1> <a href="vistamensual.php">Abril</a> </h1>
+                            <h1> <a href="vistamensual.php" id="abril">Abril</a> </h1>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-md-3">
-                            <h1><a href="vistamensual.php">mayo</a> </h1>
+                            <h1><a href="vistamensual.php" id="mayo">mayo</a> </h1>
                         </div>
                         <div class="col-md-3">
-                            <h1> <a href="vistamensual.php">Junio</a> </h1>
+                            <h1> <a href="vistamensual.php" id="junio">Junio</a> </h1>
                         </div>
                         <div class="col-md-3">
-                            <h1> <a href="vistamensual.php">Julio</a> </h1>
+                            <h1> <a href="vistamensual.php" id="julio">Julio</a> </h1>
                         </div>
                         <div class="col-md-3">
-                            <h1><a href="vistamensual.php">Agosto</a> </h1>
+                            <h1><a href="vistamensual.php" id="agosto">Agosto</a> </h1>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-md-3">
-                            <h1> <a href="vistamensual.php">Septiembre</a></h1>
+                            <h1> <a href="vistamensual.php" id="septiembre">Septiembre</a></h1>
                         </div>
                         <div class="col-md-3">
-                            <h1><a href="vistamensual.php">Octubre </a> </h1>
+                            <h1><a href="vistamensual.php" id="octubre">Octubre </a> </h1>
                         </div>
                         <div class="col-md-3">
-                            <h1> <a href="vistamensual.php">Noviembre</a> </h1>
+                            <h1> <a href="vistamensual.php" id="noviembre">Noviembre</a> </h1>
                         </div>
                         <div class="col-md-3">
-                            <h1> <a href="vistamensual.php">Diciembre</a></h1>
+                            <h1> <a href="vistamensual.php" id="diciembre">Diciembre</a></h1>
                         </div>
                     </div>
             </div>
