@@ -39,7 +39,6 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mi Cuenta <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../Dashboard/configadministrador.php">Configuracion</a></li>
                         <li><a href="../Dashboard/ayuda.php">Ayuda</a></li>
                         <li class="divider"></li>
                         <li><a href="../Login/index.php">Cerrar Sesión</a></li>

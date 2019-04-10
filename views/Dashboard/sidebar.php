@@ -8,7 +8,7 @@
                         <!-- Optionally, you can add icons to the links -->
                         <li class="active"><a href="solicitudpersonal.php"><i class="fa fa-link"></i> <span>Solicitud
                                     personal</span></a></li>
-                        <li class="active"><a href="solicitudpersonal.php"><i class="fa fa-link"></i>
+                        <li class="active"><a href="vistaclientes.php"><i class="fa fa-link"></i>
                                 <span>Clientes</span></a></li>
 
                     </ul>
