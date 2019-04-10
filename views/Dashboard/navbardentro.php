@@ -30,18 +30,7 @@
 
             </ul>
 
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Prestamos <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="../Dashboard/prestamosActivos.php">Activos</a></li>
-                    <li><a href="../Dashboard/solaprovada.php">Aprovadas</a></li>
-                    <li><a href="../Dashboard/solrechazada.php">Rechazadas</a></li>
-            </li>
-
-            </ul>
-
-
-
+            <li><a href="prestamosActivos.php">Prestamos</a></li>
 
             <li><a href="admintasas.php"> Administrar tasas</a></li>
 

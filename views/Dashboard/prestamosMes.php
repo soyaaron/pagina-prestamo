@@ -20,7 +20,7 @@
     <?php include "sidebar.php"; ?>
 
 
-    <div class="row">
+    <div class="row ">
 
         <div class="col-md-6">
             <div class="btn-group" role="group">
@@ -34,31 +34,48 @@
                 </div>
                 <div class="box-body">
 
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Monto a pagar</th>
-                                <th>Monto pagado</th>
-                                <th>Fecha de pago</th>
-                                <th></th>
-
-                            </tr>
-                            <tr>
-                                <td>id_usuario_solicitante</td>
-                                <td>monto_Pagar</td>
-                                <td>monto_Pagado</td>
-                                <td>fecha_pago</td>
-                                <td></td>
-
-
-                            </tr>
-                        </tbody>
-
-
-                    </table>
-
-                </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h1><a href="vistamensual.php">Enero</a></h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1><a href="vistamensual.php">Febrero</a></h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1> <a href="vistamensual.php">Marzo</a> </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1> <a href="vistamensual.php">Abril</a> </h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-3">
+                            <h1><a href="vistamensual.php">mayo</a> </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1> <a href="vistamensual.php">Junio</a> </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1> <a href="vistamensual.php">Julio</a> </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1><a href="vistamensual.php">Agosto</a> </h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-3">
+                            <h1> <a href="vistamensual.php">Septiembre</a></h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1><a href="vistamensual.php">Octubre </a> </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1> <a href="vistamensual.php">Noviembre</a> </h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1> <a href="vistamensual.php">Diciembre</a></h1>
+                        </div>
+                    </div>
             </div>
 
         </div>

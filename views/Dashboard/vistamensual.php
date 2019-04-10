@@ -20,35 +20,48 @@
     <?php include "sidebar.php"; ?>
 
 
-    <div class="row">
+    <div class="row ">
 
         <div class="col-md-6">
-            <div class="btn-group" role="group" aria-label="...">
-                <a href="../Dashboard/prestamosActivos.php" type="button" class="btn btn-default">Descendiente</a>
-                <a href="../Dashboard/prestamosMes.php" type="button" class="btn btn-default">Mes</a>
-                <a href="../Dashboard/prestamosAnio.php" type="button" class="btn btn-default">Año</a>
+            <div class="btn-group" role="group">
+                <a href="../Dashboard/prestamosMes.php" type="button" class="btn btn-default">← Atras</a>
+               
             </div>
             <div class="box box-solid box-success">
                 <div class="box-header">
-                    <h3 class="box-title">Prestamos por año</h3>
+                    <h3 class="box-title">Prestamos por mes</h3>
                 </div>
                 <div class="box-body">
 
-                    <div class="row">
-                        <div class="col-xs-12 col-md-3">
-                            <h1><a href="vistaanual.php">2019<a/></h1>
-                        </div>
-                        <div class="col-md-3">
-                            <h1><a href="vistaanual.php">2018<a/></h1>
-                        </div>
-                    </div>
+                <table class="table">
+                        <tbody>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Monto a pagar</th>
+                                <th>Monto pagado</th>
+                                <th>Fecha de pago</th>
+                                <th>Estado</th>
 
-                </div>
+                            </tr>
+                            <tr>
+                                <td>id_usuario_solicitante</td>
+                                <td>monto_Pagar</td>
+                                <td>monto_Pagado</td>
+                                <td>fecha_pago</td>
+                                <td>estado</td>
+
+
+                            </tr>
+                        </tbody>
+
+
+                    </table>
 
             </div>
 
-
         </div>
+
+    </div>
 
 
     </div>
