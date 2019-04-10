@@ -27,19 +27,24 @@
                 </div>
                 <div class="box-body">
 
-                    <table class="table">
+                <table class="table">
                         <tbody>
-                            <tr>
+                        <tr>
                                 <th>Nombre</th>
                                 <th>Cantidad</th>
-                                <th> </th>
+                                <th>Tiempo</th>
+                                <th>Descripcion</th>
+                                <th>Fecha</th>
+                                <th></th>
+
                             </tr>
                             <tr>
-                                <td>Juan Perez</td>
-                                <td>100,000 RD$</td>
-                                <td>
-                                    <button type="button" class="btn btn-flat">Ver mas </button>
-                                </td>
+                                <td>id_usuario_solicitante</td>
+                                <td>monto</td>
+                                <td>tiempo</td>
+                                <td>descripcion</td>
+                                <td>fecha </td>
+                                <td></td>
 
                             </tr>
                         </tbody>
