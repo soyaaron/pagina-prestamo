@@ -76,11 +76,11 @@
                                             </label>
                                                 
                                         </div>
-                                    </div>
+                                    </div> <br>
                                     <!--Botton calcularr-->
                                     <div class="row form-group">
                                         <div class="col-md-3 mx-auto ">
-                                            <button type="submit" class="btn btn-primary py-2 px-4 text-white bgcolorpurple" id="Calcular" >Calcular</button>
+                                            <button type="submit" class="btn btn-primary py-2 px-4" id="Calcular" style="background:#43425D;"> <b> Calcular</b></button>
                                         </div>
                                     </div>
                                     <br> <br>
