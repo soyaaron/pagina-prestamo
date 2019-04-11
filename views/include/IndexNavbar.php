@@ -30,7 +30,7 @@
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="views/calc.php">
+                        <a class="nav-link" href="views/calculadora.php">
                         <img src="views/dist/icon/calculadora.png">
                         Calculadora <span class="sr-only">(current)</span></a>
                     </li>
