@@ -39,7 +39,7 @@ require_once '../model/Calculadora_Model.php';
                             <div class="col-md-7 mb-5">
                                 <form id="formulario" class="p-5 bg-white" action = "controllers/Calculadora_controller.php" method="POST">
                                     <div class="col-md-12 mx-auto">
-                                        <h1 class="textcolorpurple">Calculadora de Prestamos</h1>
+                                        <h1 class="textcolorpurple"><b>Calculadora de Prestamos</b></h1>
                                         <div class="col-md-5 mx-auto text-black-50">
                                             <h6 class="">Prestamos personales</h6>
                                         </div>
@@ -47,20 +47,31 @@ require_once '../model/Calculadora_Model.php';
                                     </div>
                                     <!--Monto que se va a prestar-->
                                     <div class="row form-group">
-                                        <div class="col-md-8 mb-3 mb-md-0">
-                                            <label class="text-dark" for="inputMonto">Monto Solicitado</label>
-                                            <input type="number" min="1" step="any" class="form-control" id="inputMonto" name="inputMonto" placeholder="RD$ 0.00" >                                            
+                                        <div class="col-md-8 mb-3 mb-md-0 mx-auto">
+                                            <label class="text-dark mx-auto" for="inputMonto">Monto Solicitado</label>
+                                            <input type="number" min="1" step="any" class="form-control mx-auto " id="inputMonto" name="inputMonto" placeholder="RD$ 0.00" >                                            
                                         </div>
                                     </div>
+
                                      <!--Tasa cambiable-->
                                     <div class="row form-group">
-                                        <div class="col-md-8">
-                                            <label class="text-dark" for="inputInteres">Tasa Interes</label>
+                                        <div class="col-md-8 mx-auto">
+                                            <label class="text-dark mx-auto" for="inputInteres">Tasa Interes</label>
                                             <input type="number" class="form-control" id="inputInteres"  placeholder="1.00%" disabled >     
                                         </div>
                                     </div>
+
                                     <!--Fecha de los pagos lapso de tiempo-->
-                                    <div class="col-md-8 btn-group btn-group-toggle" data-toggle="buttons" id="inputTiempo">
+                                    <div class="row form-group">
+                                    
+                                    <div class="col-md-8 mx-auto" style="margin:0px;">
+                                    <label class="text-dark mx-auto" style="margin:0px;"for="inputTiempo">Cantidad de Años</label>
+                                    </div>
+                                    
+                                    <div class="col-md-8 mx-auto btn-group btn-group-toggle" data-toggle="buttons" id="inputTiempo">
+                                        <div>
+                                            
+                                        </div>
                                             <label class="btn btn-secondary">
                                                 <input type="radio" name="options" value='opt1' id="option1" autocomplete="off"> 1 Año
                                             </label>
@@ -70,23 +81,23 @@ require_once '../model/Calculadora_Model.php';
                                             <label class="btn btn-secondary">
                                                 <input type="radio" name="options" value='opt3' id="option3" autocomplete="off"> 3 Años
                                             </label>
-                                            
-                                        </div>
+                                    </div></div>
+                                    
                                     <!--Botton calcularr-->
                                     <div class="row form-group">
-                                        <div class="col-md-12 ">
+                                        <div class="col-md-3 mx-auto">
                                             <button type="submit" class="btn btn-primary py-2 px-4 text-white bgcolorpurple" id="Calcular" >Calcular</button>
                                         </div>
                                     </div>
                                     
 
 
-                                    <h3 class="textcolorpurple">Resultado</h3>
+                                    <h3 class="textcolorpurple"><b>Resultado</b></h3>
                                     <div class="row form-group">
                                         <div class="col-md-12">
                                             <h5  id="resultado">
                                                 Cuota Mensual
-                                                <label class="text-dark" for="">RD$ </label> 
+                                                <label class="text-dark" for="">RD$</label> 
                                                 <label class="text-dark" id="total" for="">000,000,000.00</label> 
                                             </h5>
                                         </div>
@@ -101,7 +112,7 @@ require_once '../model/Calculadora_Model.php';
                                             </h5>
                                         </div>
                                     </div>
-                                    <p>Esta información es una proyección, la cual puede variar por diversas razones, tales como: Atraso, pagos incompletos,
+                                    <p class="text-justify">Esta información es una proyección, la cual puede variar por diversas razones, tales como: Atraso, pagos incompletos,
                                      abonos extraordinarios a capital, etc.</p>
                                 </form>
                                 <div class="col-md-12">
@@ -112,21 +123,24 @@ require_once '../model/Calculadora_Model.php';
 
                             <div class="col-md-5">
                             
-                                <div class="p-4 mb-3 bg-white">
+                                <div class="p-4 mb-3">
                                 <h4>Política de Tasas Actuall</h4>
                                     <ul>
-                                        <p>35% para menos o igual a 25,000 pesos</li>
-                                        <p>30% para mas de 25,000 y menos o igual a 75,000 pesos.</p>
-                                        <p>25% para mas de 75,000 y menos o igual a 125,000 pesos</p>
-                                        <p>20% para mas de 125,000 y menos o igual a 250,000 pesos</p>
-                                        <p>15% para mas de 250,000 y menos o igual a 500,000 pesos</p>
+                                        <p>
+                                            35% para menos o igual a 25,000 pesos <br>
+                                            30% para mas de 25,000 y menos o igual a 75,000 pesos. <br>
+                                            25% para mas de 75,000 y menos o igual a 125,000 pesos. <br> 
+                                            20% para mas de 125,000 y menos o igual a 250,000 pesos. <br>
+                                            15% para mas de 250,000 y menos o igual a 500,000 pesos.
+                                            </p>
                                     </ul>
                                 </div>
-                            
+                            <!--Reimy puedes tomar esto
                                 <div class="p-4 mb-3 bg-white">
                                     <h3 class="h5 text-black mb-3">Más información</h3>
                                     <p>lorem.</p>              
                                 </div>
+                                -->
                             </div>
                         </div>
                     </div>

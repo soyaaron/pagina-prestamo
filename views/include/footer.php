@@ -86,7 +86,7 @@
                     </div>
 
                     <div class="information">
-                        <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                        <a href="about.php">Informacion Compañia</a> | <a href="privacy/politicadeuso.php"> Politicas de Uso</a> | <a href="privacy/terminosycondiciones.php">Terminos y Condiciones</a>
                     </div>
                 </div>
 
