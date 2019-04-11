@@ -1,7 +1,3 @@
-<?php
-require_once '../model/Calculadora_Model.php';
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,26 +33,33 @@ require_once '../model/Calculadora_Model.php';
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 mb-5">
-                                <form id="formulario" class="p-5 bg-white" action = "controllers/Calculadora_controller.php" method="POST">
+                                <form id="formulario" class="p-5 bg-white" action = "../controllers/Calculadora_controller.php" method="POST">
                                     <div class="col-md-12 mx-auto">
                                         <h1 class="textcolorpurple">Calculadora de Prestamos</h1>
                                         <div class="col-md-5 mx-auto text-black-50">
                                             <h6 class="">Prestamos personales</h6>
                                         </div>
                                         
-                                    </div>
+                                    </div> 
                                     <!--Monto que se va a prestar-->
                                     <div class="row form-group">
                                         <div class="col-md-8 mb-3 mb-md-0">
                                             <label class="text-dark" for="inputMonto">Monto Solicitado</label>
-                                            <input type="number" min="1" step="any" class="form-control" id="inputMonto" name="inputMonto" placeholder="RD$ 0.00" >                                            
-                                        </div>
+                                            <input type="number" min="1" step="any" class="form-control" id="inputMonto" name="inputMonto" placeholder="" >                                            
+                                        </div> 
                                     </div>
                                      <!--Tasa cambiable-->
                                     <div class="row form-group">
                                         <div class="col-md-8">
                                             <label class="text-dark" for="inputInteres">Tasa Interes</label>
-                                            <input type="number" class="form-control" id="inputInteres"  placeholder="1.00%" disabled >     
+                                            <input type="number" class="form-control" id="inputInteres" value="<?=$_GET['porciento'];?>" placeholder="<?php 
+                                            if(isset($seleccionar)){
+                                                print_r($seleccionar);
+                                            }else{
+                                                
+                                                print_r("Inserte el monto, primero");
+                                            }
+                                            ?>" disabled >     
                                         </div>
                                     </div>
                                     <!--Fecha de los pagos lapso de tiempo-->
@@ -87,7 +90,13 @@ require_once '../model/Calculadora_Model.php';
                                             <h5  id="resultado">
                                                 Cuota Mensual
                                                 <label class="text-dark" for="">RD$ </label> 
-                                                <label class="text-dark" id="total" for="">000,000,000.00</label> 
+                                                <label class="text-dark" id="total" for=""><?php 
+                                            if(isset($mi_var)){
+                                                print_r($mi_var);
+                                            }else{
+                                                echo (isset($_GET['cuota']))? $_GET['cuota'] : "000.000.00" ;
+                                            }
+                                            ?></label> 
                                             </h5>
                                         </div>
                                     </div>
@@ -97,7 +106,13 @@ require_once '../model/Calculadora_Model.php';
                                             <h5  id="resultado">
                                                 Monto Total
                                                 <label class="text-dark" for="">RD$ </label> 
-                                                <label class="text-dark" id="total" for="">000,000,000.00</label> 
+                                                <label class="text-dark" id="total" for=""><?php 
+                                            if(isset($mt_oficial)){
+                                                print_r($mt_oficial);
+                                            }else{
+                                                echo (isset($_GET['montoo']))? $_GET['montoo'] : "000.000.00" ;
+                                            }
+                                            ?></label> 
                                             </h5>
                                         </div>
                                     </div>

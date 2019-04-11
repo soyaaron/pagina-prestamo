@@ -1,14 +1,15 @@
 <?php
 require_once "../model/Calculadora_Model.php";
-require_once "../calc.php";
+//require_once "../calc.php";
 $calculadora = new Calculadora_Model;
 
 
 //La variable resibidas por el metodo POST, variable MONTO
 global $monto;
 $monto = $_POST['inputMonto'];
-echo $monto;
+//echo $monto;
 global $tiempo;
+global $mi_var;
 //Identificar los porcentajes, por medio del monto
 global $identififcador;
 $identififcador="";
@@ -31,7 +32,13 @@ if($monto >= 1 && $monto <= 25000)
 
 $seleccionar=$calculadora->TasaInteres($identififcador);
 echo "<br/>";
-print_r($seleccionar) ;
+echo "<pre>";
+//print_r($seleccionar);
+echo "</pre>";
+
+
+
+
 //FIn de los porcentajes
 
 
@@ -40,40 +47,44 @@ print_r($seleccionar) ;
 //declarar la varible
 $options="";
 //validar que el campo no este vacio
-if(isset($_POST['options'])){
-      $options = $_POST['options'];
+
+    if(isset($_POST['options'])){
+        $options = $_POST['options'];
+    
+             if($options=="opt1"){
+                  $options=1;
+                  $tiempo=12;
+                  //var_dump($options);
+                  Interes($identififcador,$monto,$options,$tiempo);
+                  montoTotal($tiempo,$mi_var); 
+              }elseif($options=="opt2"){
+                  global $options;
+                  $options = 2;
+                  $tiempo=24;
+                  //var_dump($options);
+                  echo "<hr/>";
+                  Interes($identififcador,$monto,$options,$tiempo);
+                  montoTotal($tiempo,$mi_var); 
+              }elseif($options=="opt3"){
+                  $options=1;
+                  $tiempo=36;
+                  //var_dump($options);
+                  Interes($identififcador,$monto,$options,$tiempo);
+                  montoTotal($tiempo,$mi_var); 
+              }
   
-           if($options=="opt1"){
-                $options=1;
-                $tiempo=12;
-                //var_dump($options);
-                echo Interes($identififcador,$monto,$options,$tiempo);
-
-            }elseif($options=="opt2"){
-                global $options;
-                $options = 2;
-                $tiempo=24;
-                //var_dump($options);
-                echo Interes($identififcador,$monto,$options,$tiempo);
-                 
-            }elseif($options=="opt3"){
-                $options=36;
-                $tiempo=3;
-                //var_dump($options);
-                echo Interes($identififcador,$monto,$options,$tiempo);
-            }
-
-}else{
-    $options="";
-    var_dump("Debe seleccionar el Tiempo del monto");
-}
+  }else{
+      $options="";
+      var_dump("Debe seleccionar el Tiempo del monto");
+  }
+  
 
             
 
 
 
-
-//Monto  - del cliente-- usario inserte =2,500
+//ESTRATEGIA PARA CALCULAR LA CUOTA MENSUAL.
+//(//Monto  - del cliente-- usario inserte =2,500
 //Interes - BD * 0.01  =0.35
 
 //Interes en dinero = (interes*monto) 875
@@ -81,7 +92,7 @@ if(isset($_POST['options'])){
 //tasa = Interes en dinero* 2anos- label de tiempo =1750
 
 //monto total= tasa + monto = 4250
-//cuotas por mes= monto total/ 2anos(pero en meses) = 177.08 pesos
+//cuotas por mes= monto total/ 2anos(pero en meses) = 177.08 pesos).
 
 //funcion-para resolver los intereses
 function Interes($bd_identificar,$monto_user, $options_user, $tiempo_mes){
@@ -112,8 +123,21 @@ function Interes($bd_identificar,$monto_user, $options_user, $tiempo_mes){
     return $cuotas_mes;
 }
 
-$mi_var="Interes";
-$mi_var($identififcador,$monto,$options,$tiempo);
-//En el action="<?php echo htmlspecialchars($_SERVER['PHP_SELF'])?>" 
+
+
+
+
+//almacena la funcion interes
+
+$mi_var=Interes($identififcador,$monto,$options,$tiempo);
+
+
+function montoTotal($Tm,$cuo){
+     $mt = ($Tm*$cuo);
+    return $mt;
+}
+$mt_oficial = montoTotal($tiempo,$mi_var);
+//echo $mt_oficial;
+header("Location: ../views/calculadora.php?porciento={$seleccionar}&&cuota={$mi_var}&&montoo={$mt_oficial}");
 
 ?>
