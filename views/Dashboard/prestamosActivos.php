@@ -33,31 +33,32 @@
                     <h3 class="box-title">Prestamos activos</h3>
                 </div>
                 <div class="box-body">
+                    <div class="table-responsive">
 
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Monto a pagar</th>
-                                <th>Monto pagado</th>
-                                <th>Fecha de pago</th>
-                                <th></th>
+                        <table class="table table-condensed">
+                            <tbody>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Monto a pagar</th>
+                                    <th>Monto pagado</th>
+                                    <th>Fecha de pago</th>
+                                    <th></th>
 
-                            </tr>
-                            <tr>
-                                <td>id_usuario_solicitante</td>
-                                <td>monto_Pagar</td>
-                                <td>monto_Pagado</td>
-                                <td>fecha_pago</td>
-                                <td><a class="btn btn-default" href="../dashboard/facturaprestamo.php" type="button">Cobrar prestamo </a></td>
-
-
-                            </tr>
-                        </tbody>
+                                </tr>
+                                <tr>
+                                    <td>id_usuario_solicitante</td>
+                                    <td>monto_Pagar</td>
+                                    <td>monto_Pagado</td>
+                                    <td>fecha_pago</td>
+                                    <td><a class="btn btn-default" href="../dashboard/facturaprestamo.php"
+                                            type="button">Cobrar prestamo </a></td>
 
 
-                    </table>
+                                </tr>
+                            </tbody>
 
+                        </table>
+                    </div>
                 </div>
             </div>
 
@@ -66,35 +67,37 @@
                     <h3 class="box-title">Prestamos atrasados</h3>
                 </div>
                 <div class="box-body">
+                    <div class="table-responsive">
 
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Monto a pagar</th>
-                                <th>Monto de mora</th>
-                                <th>Monto pagado</th>
-                                <th>Fecha de pago</th>
-                                <th>Dias de retraso</th>
-                                <th></th>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Monto a pagar</th>
+                                    <th>Monto de mora</th>
+                                    <th>Monto pagado</th>
+                                    <th>Fecha de pago</th>
+                                    <th>Dias de retraso</th>
+                                    <th></th>
 
-                            </tr>
-                            <tr>
-                                <td>id_usuario_solicitante</td>
-                                <td>monto_Pagar</td>
-                                <td>monto_mora</td>
-                                <td>monto_Pagado</td>
-                                <td>fecha_pago</td>
-                                <td>dias_atraso_pago</td>
-                                <td><a class="btn btn-default" href="../dashboard/facturaprestamo.php" type="button">Cobrar prestamo </a></td>
-
-
-                            </tr>
-                        </tbody>
+                                </tr>
+                                <tr>
+                                    <td>id_usuario_solicitante</td>
+                                    <td>monto_Pagar</td>
+                                    <td>monto_mora</td>
+                                    <td>monto_Pagado</td>
+                                    <td>fecha_pago</td>
+                                    <td>dias_atraso_pago</td>
+                                    <td><a class="btn btn-default" href="../dashboard/facturaprestamo.php"
+                                            type="button">Cobrar prestamo </a></td>
 
 
-                    </table>
+                                </tr>
+                            </tbody>
 
+
+                        </table>
+                    </div>
                 </div>
             </div>
 

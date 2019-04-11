@@ -9,102 +9,93 @@
     <link rel="stylesheet" href="../dist/css/AdminLTE.css">
     <link rel="stylesheet" href="../dist/css/skins/_all-skins.css">
     <link rel="stylesheet" href="../bootstrap/css/formatofactura.css">
-
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
 </head>
 
-<body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
+<body class="skin-green-light layout-top-nav">
     <header class="main-header">
         <?php include "navbardentro.php"; ?>
     </header>
     <?php include "sidebar.php"; ?>
 
-  
-            <div class="container">
 
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="invoice-title">
-                            <h2>Factura</h2>
-                            <h3 class="pull-right">Numero de prestamo # id_solicitud</h3>
-                        </div>
-                        <hr>
-                        <div class="row">
-                        <div class="col-md-3 text-right">
-                                <address>
-                                    <strong>Fecha de pago:</strong><br>
-                                    <p id="demo"></p> 
-                                </address>
-                            </div>                  
-                        </div>
-                  
-                    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="invoice-title">
+                    <h2>Factura</h2>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h3 class="panel-title"><strong>Order summary</strong></h3>
-                            </div>
-                            <div class="panel-body">
-                                <div class="table-responsive">
-                                    <table class="table table-condensed">
-                                        <thead>
-                                            <tr>
-                                                <td><strong>Item</strong></td>
-                                                <td class="text-center"><strong>Price</strong></td>
-                                                <td class="text-center"><strong>Quantity</strong></td>
-                                                <td class="text-right"><strong>Totals</strong></td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <!-- foreach ($order->lineItems as $line) or some such thing here -->
-                                            <tr>
-                                                <td>BS-200</td>
-                                                <td class="text-center">$10.99</td>
-                                                <td class="text-center">1</td>
-                                                <td class="text-right">$10.99</td>
-                                            </tr>
-                                            <tr>
-                                                <td>BS-400</td>
-                                                <td class="text-center">$20.00</td>
-                                                <td class="text-center">3</td>
-                                                <td class="text-right">$60.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td>BS-1000</td>
-                                                <td class="text-center">$600.00</td>
-                                                <td class="text-center">1</td>
-                                                <td class="text-right">$600.00</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="thick-line"></td>
-                                                <td class="thick-line"></td>
-                                                <td class="thick-line text-center"><strong>Subtotal</strong></td>
-                                                <td class="thick-line text-right">$670.99</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="no-line"></td>
-                                                <td class="no-line"></td>
-                                                <td class="no-line text-center"><strong>Shipping</strong></td>
-                                                <td class="no-line text-right">$15</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="no-line"></td>
-                                                <td class="no-line"></td>
-                                                <td class="no-line text-center"><strong>Total</strong></td>
-                                                <td class="no-line text-right">$685.99</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <br>
+                <div class="col-md-3 text-right">
+                    <address>
+                        <strong>Fecha de pago:</strong><br>
+                        <?php  echo date("l d-m-y"); ?>
+                    </address>
+                </div>
+                <div class="col-md-3 text-right">
+                    <address>
+                        <strong># Prestamo: </strong><br>
+                        id_prestamo
+                    </address>
                 </div>
             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Resumen</strong></h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-condensed">
+                                <thead>
+                                    <tr>
+                                        <td class="text-center"><strong>Cuota Menual</strong></td>
+                                        <td class="text-center"><strong>Mora</strong></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    <tr>
+                                        <td class="text-center">cuota</td>
+                                        <td class="text-center">monto_mora</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line"></td>
+                                        <td class="thick-line text-center"><strong>Subtotal cuota</strong></td>
+                                        <td class="thick-line text-right">cuota</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="no-line"></td>
+                                        <td class="no-line"></td>
+                                        <td class="no-line text-center"><strong>Subtotal Mora</strong></td>
+                                        <td class="no-line text-right">monto_mora</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="no-line"></td>
+                                        <td class="no-line"></td>
+                                        <td class="no-line text-center"><strong>Total</strong></td>
+                                        <td class="no-line text-right">monto_mora + cuota</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-success" >Aceptar pago</button>
+            </div>
+        </div>
+    </div>
 
 
     <script src="../dist/js/jquery.min.js"></script>
@@ -113,10 +104,6 @@
     </script>
     <script src="../bootstrap/js/bootstrap.min.js"></script>
     <script src="../dist/js/app.js"></script>
-    <script>
-var d = new Date();
-document.getElementById("demo").innerHTML = d;
-</script>
 
 </body>
 

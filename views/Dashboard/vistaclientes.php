@@ -30,7 +30,7 @@
                 </div>
                 <div class="box-body">
 
-                    <table class="table">
+                    <table class="table table-condensed">
                         <tbody>
                             <tr>
                                 <th>Nombre</th>
