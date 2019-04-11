@@ -30,7 +30,11 @@
                         <div class="row">
                             <div class="col-md-7 mb-5">
                                 <form id="formulario" class="p-5 bg-white">
+                                    <div class="col-md-6 mx-auto">
+                                        <h1 class="textcolorpurple mx-auto"><b> Contactanos</b></h1> <br>
+                                    </div>
                                     <div class="row form-group">
+                                        
                                         <div class="col-md-6 mb-3 mb-md-0">
                         
                                             <label class="text-dark mx-auto" for="fname" id="nombre">Nombre</label>

@@ -15,7 +15,7 @@
 
 <body class="skin-green-light layout-top-nav">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
 
     aqui iria un duplicado del formulario de solicitud

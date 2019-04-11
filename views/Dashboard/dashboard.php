@@ -13,7 +13,7 @@
 
 </head>
 
-<body class="skin-green-light layout-top-nav">
+<body class="hold-transition skin-blue sidebar-mini">
     <header class="main-header">
         <?php include "navbardentro.php"; ?>
     </header>
@@ -44,7 +44,7 @@
                                 <td>tiempo</td>
                                 <td>descripcion</td>
                                 <td>fecha </td>
-                                <td><button type="button" class="btn btn-flat">Ver mas </button></td>
+                                <td><a  type="button" class="btn btn-default" href="../SolicitudesAdmin/infoprestamo.php">Ver mas </a></td>
                             </tr>
                         </tbody>
 
@@ -54,39 +54,42 @@
             </div>
 
             <!-- aqui van los usuarios que estan tarde-->
-            <div class="box box-solid box-danger">
+            <div class="box box-solid box-warning">
                 <div class="box-header">
-                    <h3 class="box-title">Usuarios pasados de fecha</h3>
+                    <h3 class="box-title">Prestamos atrasados</h3>
                 </div>
-
                 <div class="box-body">
-                    <table class="table">
-                        <tbody>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Monto a pagar</th>
-                                <th>Monto de mora</th>
-                                <th>Monto pagado</th>
-                                <th>Fecha de pago</th>
-                                <th>Dias de retraso</th>
-                                <th></th>
+                    <div class="table-responsive">
 
-                            </tr>
-                            <tr>
-                                <td>id_usuario_solicitante</td>
-                                <td>monto_Pagar</td>
-                                <td>monto_mora</td>
-                                <td>monto_Pagado</td>
-                                <td>fecha_pago</td>
-                                <td>dias_atraso_pago</td>
-                                <td></td>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Monto a pagar</th>
+                                    <th>Monto de mora</th>
+                                    <th>Monto pagado</th>
+                                    <th>Fecha de pago</th>
+                                    <th>Dias de retraso</th>
+                                    <th></th>
+
+                                </tr>
+                                <tr>
+                                    <td>id_usuario_solicitante</td>
+                                    <td>monto_Pagar</td>
+                                    <td>monto_mora</td>
+                                    <td>monto_Pagado</td>
+                                    <td>fecha_pago</td>
+                                    <td>dias_atraso_pago</td>
+                                    <td><a class="btn btn-default" href="../prestamosadmin/facturaprestamo.php"
+                                            type="button">Cobrar prestamo </a></td>
 
 
-                            </tr>
-                        </tbody>
+                                </tr>
+                            </tbody>
 
 
-                    </table>
+                        </table>
+                    </div>
                 </div>
             </div>
 

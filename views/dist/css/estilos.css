@@ -28,13 +28,24 @@
     border-color: #43425D;
 }
 
+#formulario input, message{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #43425D;
+}
+#message{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #43425D;
+}
+
 
 #body{
     color: black;
     background-color: white;
 }
 
-#inputTiempo{
+#inputTiempo{   
     margin-top: 10px;
 }
 

@@ -6,6 +6,7 @@
     <title>Vista Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    
     <link rel="stylesheet" href="../dist/css/AdminLTE.css">
     <link rel="stylesheet" href="../dist/css/skins/_all-skins.css">
     <link rel="stylesheet" href="../bootstrap/css/formatos.css">
@@ -17,9 +18,10 @@
 <div class="wrapper">
 
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include '../dashboard/navbardentro.php'; ?>
     </header>
-    <?php include "sidebar.php"; ?>
+    <?php include '../dashboard/sidebar.php'; ?>
+    
 <div classs="content-wrapper">
     <div class="row">
         <div class="col-md-5">
@@ -45,7 +47,7 @@
                                 <td>tiempo</td>
                                 <td>descripcion</td>
                                 <td>fecha </td>
-                                <td><button type="button" class="btn btn-flat" href="infoprestamo.php">Ver mas </button></td>
+                                <td><a type="button" class="btn btn-default" href="infoprestamo.php">Ver mas </a></td>
                             </tr>
                         </tbody>
 
