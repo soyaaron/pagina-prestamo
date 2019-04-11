@@ -1,8 +1,3 @@
-<?php
-require_once 'model/Calculadora_Model.php';
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,12 +43,19 @@ require_once 'model/Calculadora_Model.php';
                                             <label class="text-dark" for="inputMonto">MONTO A SOLICITAR</label>
                                             <input type="number" min="1" step="any" class="form-control" id="inputMonto" name="inputMonto" placeholder="Monto" >                                            
                                         </div>
-
-                                        <div class="col-md-6">
-                   
+                                        
+                                            <div class="col-md-6">
                                             <label class="text-dark" for="inputInteres">TASA DE INTERES %</label>
-                                            <input type="number" class="form-control" id="inputInteres"  placeholder="Interes" disabled >     
+                                            <input type="number" class="form-control" id="inputInteres" value="<?=$_GET['porciento'];?>" placeholder="<?php 
+                                            if(isset($seleccionar)){
+                                                print_r($seleccionar);
+                                            }else{
+                                                print_r("Inserte el monto, primero");
+                                            }
+                                            ?>" disabled >     
                                         </div>
+                                          
+                                        
 
                                     </div>
                                     
@@ -77,10 +79,16 @@ require_once 'model/Calculadora_Model.php';
                                         <div class="col-md-7">
                                             <h5>CUOTA MENSUAL: </h5>
                                         </div>
-
+                                        
                                         <div class="col-md-7">
-                                        <!--poner el valor del total-->
-                                            <h5><label class="text-dark" for="">RD$ </label> <label id="total" for=""><?php  ?></label> </h5>
+                                        <!--poner el valor de la cuota mensual-->
+                                            <h5><label class="text-dark" for="">RD$ </label> <label id="total" for=""> <?php 
+                                            if(isset($mi_var)){
+                                                print_r($mi_var);
+                                            }else{
+                                                echo (isset($_GET['cuota']))? $_GET['cuota'] : "00.00" ;
+                                            }
+                                            ?> </label> </h5>
                                         </div>
                                         
                                     </div>

@@ -3,6 +3,7 @@
 require_once 'Conection_BD.php';
 
 
+
 class Calculadora_Model extends Conection_BD{
 
 
@@ -14,7 +15,8 @@ class Calculadora_Model extends Conection_BD{
             
             $query = "SELECT porcentaje FROM tasa WHERE identificador='$identificador'";
             $tasa = $conection->query($query)->fetch();
-            return $tasa;
+            
+            return $tasa['porcentaje'];
         } catch (PDOException $e) {
             exit("ERROR:".$e->getMessage());
         }finally{
