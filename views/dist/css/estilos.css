@@ -61,14 +61,22 @@
     width: 200px;
     height: 200px;
 }
+
+#social {
+    padding-top: 15px;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    border-color: rgb(255, 255, 255);
+}
+
+
 #social img{
     width: 50px;
     height: 50px;
     margin-right: 20px;
 }
 #navbar{
-    height: 50px;
-    padding: 35px;
+    padding: 0px;
 }   
 
 #navbar li{
@@ -116,6 +124,12 @@ footer{
     max-width: 1200px;
     margin: auto;
     padding: 40px;
+}
+
+#footerbolder{
+    border-style: solid;
+    border-width: 4px 0px 0px 0px;
+    border-color: rgb(255, 255, 255);
 }
 
 .container-body{

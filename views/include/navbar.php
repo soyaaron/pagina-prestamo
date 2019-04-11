@@ -2,7 +2,7 @@
         <a class="navbar-brand" href="../index.php">
 
             <img src="dist/img/logo1.png" width="70px" alt="">
-     
+      
                 <a class="navbar-brand" href="../index.php" id="EES">
 
                               <td class="align-top">Energy</td> <br>
