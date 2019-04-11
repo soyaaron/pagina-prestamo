@@ -31,7 +31,7 @@
                 <div class="col-md-3 text-right">
                     <address>
                         <strong>Fecha de pago:</strong><br>
-                        <?php  echo date("l d-m-y"); ?>
+                        <?php  echo date("d-m-y"); ?>
                     </address>
                 </div>
                 <div class="col-md-3 text-right">

@@ -18,10 +18,10 @@
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
-<li><a href="../dashboard/dashboard.php" type="button">Home<a></li>
+            <li><a href="../dashboard/dashboard.php">Home</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solicitudes <span
-                            class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solicitudes 
+                        <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="../SolicitudesAdmin/adminsolicitud.php">Recientes</a></li>
                         <li><a href="../SolicitudesAdmin/solaprovada.php">Aprovadas</a></li>

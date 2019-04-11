@@ -22,7 +22,7 @@
 
     <div class="row ">
 
-        <div class="col-md-6">
+        <div class="col-md-4">
             
             <div class="box box-solid box-success">
                 <div class="box-header">
@@ -36,16 +36,13 @@
                                 <th>Nombre</th>
                                 <th>Apellido</th>
                                 <th>Estrellas</th>
-                                <th></th>
 
                             </tr>
                             <tr>
                                 <td>nombre</td>
                                 <td>apellido</td>
-                                <td>estrellas / <b>5 </b>⭐</td>
-                                <td><button class="btn" href="perfilcliente.php"> <a href="perfilcliente.php"> ver mas</a></button></td>
-
-
+                                <td>estrellas / <b>5</b> ⭐</td>
+                                <td><a class="btn btn-default" href="perfilcliente.php">ver mas</a></td>
                             </tr>
                         </tbody>
 
