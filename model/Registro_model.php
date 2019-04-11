@@ -82,7 +82,7 @@ public function login(){
     $connection = parent::conectar();
     
     try {
-        $query = ("");
+        $query = "";
     } catch (PDOException $e) {
         exit("ERROR:".$e->getMessage());
     }finally{
