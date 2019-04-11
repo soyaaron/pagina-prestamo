@@ -64,7 +64,7 @@
         
         </div>
         <div class="clearfix d-flex justify-content-center" ></div>
-            <div id="social"class="col-md-8 mx-auto col sm-12 d-flex justify-content-center" >
+            <div id="social"class="col-md-10 mx-auto col sm-10 d-flex justify-content-center" >
 
                 <a href=""><img clas="rounded-danger" src="dist/icon/facebook.png" ></a>
                 
