@@ -15,9 +15,9 @@
 
 <body class="skin-green-light layout-top-nav">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
-    <?php include "sidebar.php"; ?>
+    <?php include "../dashboard/sidebar.php"; ?>
 
 
     <div class="container">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-success" >Aceptar pago</button>
+                <button class="btn btn-success">Aceptar pago</button>
             </div>
         </div>
     </div>

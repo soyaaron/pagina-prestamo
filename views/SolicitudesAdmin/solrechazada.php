@@ -15,58 +15,46 @@
 
 <body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
-    <?php include "sidebar.php"; ?>
 
+    <div class="row">
+        <div class="col-md-5">
 
-    <div class="row ">
-
-        <div class="col-md-6">
-            <div class="btn-group" role="group">
-                <a href="../Dashboard/prestamosMes.php" type="button" class="btn btn-default">← Atras</a>
-               
-            </div>
-            <div class="box box-solid box-success">
+            <div class="box box-solid box-danger">
                 <div class="box-header">
-                    <h3 class="box-title">Prestamos por mes</h3>
+                    <h3 class="box-title">Solicitudes Rechazadas</h3>
                 </div>
+
                 <div class="box-body">
 
-                <table class="table">
+                    <table class="table">
                         <tbody>
-                            <tr>
+                        <tr>
                                 <th>Nombre</th>
-                                <th>Monto a pagar</th>
-                                <th>Monto pagado</th>
+                                <th>Cantidad</th>
+                                <th>Tiempo</th>
+                                <th>Descripcion</th>
                                 <th>Fecha</th>
-                                <th>Fecha de pago</th>
-                                <th>Estado</th>
 
                             </tr>
                             <tr>
                                 <td>id_usuario_solicitante</td>
-                                <td>monto_Pagar</td>
-                                <td>monto_Pagado</td>
-                                <td>fecha</td>
-                                <td>fecha_pago</td>
-                                <td>estado</td>
-
+                                <td>monto</td>
+                                <td>tiempo</td>
+                                <td>descripcion</td>
+                                <td>fecha </td>
 
                             </tr>
                         </tbody>
 
-
                     </table>
 
+                </div>
             </div>
-
         </div>
-
     </div>
 
-
-    </div>
 
     <script src="../dist/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

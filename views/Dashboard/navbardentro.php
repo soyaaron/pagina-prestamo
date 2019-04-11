@@ -23,16 +23,16 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solicitudes <span
                             class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="../Dashboard/adminsolicitud.php">Recientes</a></li>
-                        <li><a href="../Dashboard/solaprovada.php">Aprovadas</a></li>
-                        <li><a href="../Dashboard/solrechazada.php">Rechazadas</a></li>
+                        <li><a href="../SolicitudesAdmin/adminsolicitud.php">Recientes</a></li>
+                        <li><a href="../SolicitudesAdmin/solaprovada.php">Aprovadas</a></li>
+                        <li><a href="../SolicitudesAdmin/solrechazada.php">Rechazadas</a></li>
                 </li>
 
             </ul>
 
-            <li><a href="prestamosActivos.php">Prestamos</a></li>
+            <li><a href="../PrestamosAdmin/prestamosActivos.php">Prestamos</a></li>
 
-            <li><a href="admintasas.php"> Administrar tasas</a></li>
+            <li><a href="../Dashboard/admintasas.php"> Administrar tasas</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">

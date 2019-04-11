@@ -15,11 +15,11 @@
 
 <body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
 
-    <?php include "sidebar.php"; ?>
-aqui va la informacion del prestamo, necesito el formulario de solicitud
+    <?php include "../dashboard/sidebar.php"; ?>
+        aqui va la informacion del prestamo, necesito el formulario de solicitud
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
