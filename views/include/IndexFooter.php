@@ -15,7 +15,6 @@
 <h1>Tasa de interes</h1>
                     <label for="" id="impuesto">15 %</label>
                     <h1>Redes Sociales</h1>
-
                     <div class="row">
                        <a href=""><img src="views/dist/icon/facebook.png">
                         <label>Siguenos en Facebook</label></a>
@@ -36,8 +35,6 @@
                        <a href=""><img src="views/dist/icon/pinterest.png">
                         <label>Siguenos en Pinteres</label></a>
                     </div>
-
-
                 </div>-->
 
                 <div class="colum2">
@@ -45,17 +42,17 @@
                     <h1>Informacion Contactos</h1>
 
                     <div class="row">
-                        <img src="dist/icon/house.png">
+                        <img src="views/dist/icon/house.png">
                         <label>Calle Manuel de Jesús Troncoso 46, Santo Domingo</label>
                     </div>
 
                     <div class="row">
-                        <img src="dist/icon/smartphone.png">
+                        <img src="views/dist/icon/smartphone.png">
                         <label>+1-849-351-2799</label>
                     </div>
 
                     <div class="row">
-                        <img src="dist/icon/contact.png">
+                        <img src="views/dist/icon/contact.png">
                          <label>EnergyES@gmail.com</label>
                     </div>
 
@@ -67,15 +64,15 @@
 <br>
             <div id="social"class="col-md-12 col sm-12 d-flex justify-content-center    ">
 
-                <a href=""><img clas="rounded-danger" src="dist/icon/facebook.png"></a>
+                <a href=""><img clas="rounded-danger" src="views/dist/icon/facebook.png"></a>
                 
-                <a href=""><img src="dist/icon/twitter.png"></a>
+                <a href=""><img src="views/dist/icon/twitter.png"></a>
                     
-                <a href=""><img src="dist/icon/instagram.png"></a>
+                <a href=""><img src="views/dist/icon/instagram.png"></a>
                 
-                <a href=""><img src="dist/icon/google-plus.png"></a>
+                <a href=""><img src="views/dist/icon/google-plus.png"></a>
                 
-                <a href=""><img src="dist/icon/pinterest.png"></a>
+                <a href=""><img src="views/dist/icon/pinterest.png"></a>
 
             </div><br>
             

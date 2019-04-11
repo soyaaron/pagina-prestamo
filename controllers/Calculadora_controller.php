@@ -9,6 +9,7 @@ global $monto;
 $monto = $_POST['inputMonto'];
 //echo $monto;
 global $tiempo;
+global $mi_var;
 //Identificar los porcentajes, por medio del monto
 global $identififcador;
 $identififcador="";
@@ -55,7 +56,7 @@ $options="";
                   $tiempo=12;
                   //var_dump($options);
                   Interes($identififcador,$monto,$options,$tiempo);
-  
+                  montoTotal($tiempo,$mi_var); 
               }elseif($options=="opt2"){
                   global $options;
                   $options = 2;
@@ -63,12 +64,13 @@ $options="";
                   //var_dump($options);
                   echo "<hr/>";
                   Interes($identififcador,$monto,$options,$tiempo);
-                   
+                  montoTotal($tiempo,$mi_var); 
               }elseif($options=="opt3"){
                   $options=1;
                   $tiempo=36;
                   //var_dump($options);
                   Interes($identififcador,$monto,$options,$tiempo);
+                  montoTotal($tiempo,$mi_var); 
               }
   
   }else{
@@ -120,11 +122,22 @@ function Interes($bd_identificar,$monto_user, $options_user, $tiempo_mes){
 
     return $cuotas_mes;
 }
+
+
+
+
+
 //almacena la funcion interes
+
 $mi_var=Interes($identififcador,$monto,$options,$tiempo);
 
-//Incluir la vista en el modelo.
-// require_once "../calc.php";
-header("Location: ../calc.php?porciento={$seleccionar}&&cuota={$mi_var}");
+
+function montoTotal($Tm,$cuo){
+     $mt = ($Tm*$cuo);
+    return $mt;
+}
+$mt_oficial = montoTotal($tiempo,$mi_var);
+//echo $mt_oficial;
+header("Location: ../views/calculadora.php?porciento={$seleccionar}&&cuota={$mi_var}&&montoo={$mt_oficial}");
 
 ?>

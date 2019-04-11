@@ -1,16 +1,11 @@
-/*custom font*/
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-/*basic reset*/
+
 * {margin: 0; padding: 0;}
 
 html {
 	
-	/*Image only BG fallback*/
-	
-	/*background = gradient + image pattern combo*/
-	
-		
 }
 
 body {
@@ -20,6 +15,7 @@ body {
 	background-attachment: fixed;
 	font-family: montserrat, arial, verdana;
 }
+
 /*form styles*/
 #msform {
 	width: 400px;
@@ -27,9 +23,11 @@ body {
 	text-align: center;
 	position: relative;
 }
+
 #inputGroupSelect02{
 	height: 50px;
 }
+
 #msform fieldset {
 	background: white;
 	border: 0 none;
@@ -43,10 +41,12 @@ body {
 	/*stacking fieldsets above each other*/
 	position: relative;
 }
+
 /*Hide all except first fieldset*/
 #msform fieldset:not(:first-of-type) {
 	display: none;
 }
+
 /*inputs*/
 #msform input, #msform textarea {
 	padding: 15px;
