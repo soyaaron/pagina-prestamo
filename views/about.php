@@ -32,49 +32,49 @@
                          <div class="col-md-7">
 
                             <h1 class="site-section-heading font-weight-light text-black text-center">Misión</h1>
-                            <p class="mb-4" id="mision">Somos una equipo dedicado a la comercialización y distribución de software,
+                            <p class="mb-4 text-justify" id="mision">Somos una equipo dedicado a la comercialización y distribución de software,
                                  desarrollo de aplicaciones, servicio técnico, mantenimiento del software, hosting y consultoría de protección de datos. 
                                  Ofreciendo una solución global a empresas, profesionales, administraciones y usuarios particularesa a todo el territorio nacional</p>
 
                             <h1 class="site-section-heading font-weight-light text-black text-center">Visión</h1>
-                            <p class="mb-4" id="vision">Pretendemos ser un referente en el mercado nacional en el sector del desarrollo de software, y para ello abarcaremos todos los 
+                            <p class="mb-4 text-justify" id="vision">Pretendemos ser un referente en el mercado nacional en el sector del desarrollo de software, y para ello abarcaremos todos los 
                                 servicios que ofrecemos actualmente incrementando los que vayan surgiendo debido a la necesidad de cambio provocado por los avances tecnológicos. 
                                 Esto es así ya que somos una empresa en constante innovación ya que el sector de la tecnología así lo requiere.</p>
 
-                            <h1 class="site-section-heading font-weight-light text-black text-center">Valores</h1>
-                            <p class="mb-4" id="valores">Nuestros valores sobre los que se sostiene esta estrategia de crecimiento y diferenciación en el servicio son:
+                            <h1 class="site-section-heading font-weight-light text-black text-center col-md-12">Valores</h1>
+                            <p class="mb-4  text-justify" id="valores">Nuestros valores sobre los que se sostiene esta estrategia de crecimiento y diferenciación en el servicio son:
                                 <ul>
-                                    <li><b> Trabajo en equipo:</b> Promoviendo y apoyando un equipo homogéneo, polivalente e interdepartamental.</li>
+                                    <p class="text-justify"><b> Trabajo en equipo:</b> Promoviendo y apoyando un equipo homogéneo, polivalente e interdepartamental.</p>
 
-                                    <li><b>Colaboración:</b> Nos integramos con nuestros proveedores y clientes para mejorar día a día la calidad con los mismos para
+                                    <p  class="text-justify"><b>Colaboración:</b> Nos integramos con nuestros proveedores y clientes para mejorar día a día la calidad con los mismos para
                                      satisfacer sus necesidades.</li>
 
-                                    <li><b>Servicio:</b> Cumplimos con nuestros compromisos y nos hacemos responsables de nuestro rendimiento en todas nuestras 
-                                    decisiones y acciones, basándonos en una gran voluntad de servicio por y para nuestros clientes.</li>
+                                    <p  class="text-justify"><b>Servicio:</b> Cumplimos con nuestros compromisos y nos hacemos responsables de nuestro rendimiento en todas nuestras 
+                                    decisiones y acciones, basándonos en una gran voluntad de servicio por y para nuestros clientes.</p>
 
-                                    <li><b>Innovación y mejora continua:</b> Nos damos cuenta de la importancia de mirar hacia el futuro, por tanto ofrecemos lo
-                                     último del mercado para dar un apoyo y servicio óptimo a nuestros clientes.</li>
+                                    <p  class="text-justify"><b>Innovación y mejora continua:</b> Nos damos cuenta de la importancia de mirar hacia el futuro, por tanto ofrecemos lo
+                                     último del mercado para dar un apoyo y servicio óptimo a nuestros clientes.</p>
 
-                                    <li><b>Transparencia:</b> La implicación y compromiso del personal no sería posible sin una absoluta transparencia en los procesos,
-                                     disponiendo el personal de la máxima información de la empresa.</li>
+                                    <p  class="text-justify"><b>Transparencia:</b> La implicación y compromiso del personal no sería posible sin una absoluta transparencia en los procesos,
+                                     disponiendo el personal de la máxima información de la empresa.</p>
 
-                                    <li><b>Comunicación:</b> Promovemos y facilitamos la comunicación entre todos los niveles de la organización, disponiendo de
-                                     herramientas eficaces, convocando los foros adecuados y con el compromiso constante de la dirección.</li>
+                                    <p  class="text-justify"><b>Comunicación:</b> Promovemos y facilitamos la comunicación entre todos los niveles de la organización, disponiendo de
+                                     herramientas eficaces, convocando los foros adecuados y con el compromiso constante de la dirección.</p>
 
-                                    <li><b>Integridad y Ética:</b> Promovemos un compromiso social y cumplimos nuestra normativa interna.</li>
+                                    <p  class="text-justify"><b>Integridad y Ética:</b> Promovemos un compromiso social y cumplimos nuestra normativa interna.</p>
 
-                                    <li><b>Modelo de dirección participativo:</b> El personal de la empresa asume responsabilidades y participa 
-                                    en el proceso de toma de decisiones.</li>
+                                    <p  class="text-justify"><b>Modelo de dirección participativo:</b> El personal de la empresa asume todas las responsabilidades y participa 
+                                    en el proceso de toma de decisiones.</p>
 
-                                    <li><b>Formación:</b> La empresa se preocupa de la formación continua en todos los ámbitos.</li>
+                                    <p  class="text-justify"><b>Formación:</b> La empresa se preocupa de la formación continua en todos los ámbitos.</p>
 
-                                    <li><b>Responsabilidad Social Corporativa:</b> Contribuimos activamente al mejoramiento social, económico y ambiental,
-                                     para mejorar nuestra situación competitiva y valorativa.</li>
+                                    <p  class="text-justify"><b>Responsabilidad Social Corporativa:</b> Contribuimos activamente al mejoramiento social, económico y ambiental,
+                                     para mejorar nuestra situación competitiva y valorativa.</p>
                                 </ul>
-                            </p>
+                            </p> <br>
                             
-                            <h2 class="site-section-heading font-weight-light text-black text-center">Nuestro equipo</h2>
-                            <p class="mb-4" id="nuestro-equipo">Somos estudantes de termino del ITLA especializandonos en el area Desarrollo de Software tantos Web, Mobil, Escritorio
+                            <h2 class="site-section-heading font-weight-light text-black text-center">Nuestro equipo</h2> <br>
+                            <p class="mb-4 text-justify" id="nuestro-equipo">Somos estudantes de termino del ITLA especializandonos en el area Desarrollo de Software tantos Web, Mobil, Escritorio
                                 con fin de proporsionar los mejores servicios al cliente con nuestras Aptitudes.</p>
 
                         </div>
