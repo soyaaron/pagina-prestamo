@@ -1,3 +1,8 @@
+<?php
+require_once '../model/Calculadora_Model.php';
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +11,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Energy Equipment Solutions</title>
     <!--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon-->
-    <link rel="shortcut icon" type="image/png" href="views/dist/img/logo1.png">
-    <link rel="stylesheet" href="views/dist/css/estilos.css">
-    <link rel="stylesheet" href="views/dist/css/font.css">
+    <link rel="shortcut icon" type="image/png" href="dist/img/logo1.png">
+    <link rel="stylesheet" href="dist/css/estilos.css">
+    <link rel="stylesheet" href="dist/css/font.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body class=" " id="back">
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
-    <?php require "views/include/navbar.php" ?> 
+    <?php require "include/navbar.php" ?> 
 
     <div id="body" class="m-3 bg-light ">
 
@@ -40,21 +45,21 @@
                                         </div>
                                         
                                     </div>
-
+                                    <!--Monto que se va a prestar-->
                                     <div class="row form-group">
                                         <div class="col-md-8 mb-3 mb-md-0">
                                             <label class="text-dark" for="inputMonto">Monto Solicitado</label>
                                             <input type="number" min="1" step="any" class="form-control" id="inputMonto" name="inputMonto" placeholder="RD$ 0.00" >                                            
                                         </div>
                                     </div>
-
+                                     <!--Tasa cambiable-->
                                     <div class="row form-group">
                                         <div class="col-md-8">
                                             <label class="text-dark" for="inputInteres">Tasa Interes</label>
                                             <input type="number" class="form-control" id="inputInteres"  placeholder="1.00%" disabled >     
                                         </div>
                                     </div>
-
+                                    <!--Fecha de los pagos lapso de tiempo-->
                                     <div class="col-md-8 btn-group btn-group-toggle" data-toggle="buttons" id="inputTiempo">
                                             <label class="btn btn-secondary">
                                                 <input type="radio" name="options" value='opt1' id="option1" autocomplete="off"> 1 Año
@@ -67,7 +72,7 @@
                                             </label>
                                             
                                         </div>
-
+                                    <!--Botton calcularr-->
                                     <div class="row form-group">
                                         <div class="col-md-12 ">
                                             <button type="submit" class="btn btn-primary py-2 px-4 text-white bgcolorpurple" id="Calcular" >Calcular</button>
@@ -110,11 +115,11 @@
                                 <div class="p-4 mb-3 bg-white">
                                 <h4>Política de Tasas Actuall</h4>
                                     <ul>
-                                        <li>35% para menos o igual a 25,000 pesos</li>
-                                        <li>30% para mas de 25,000 y menos o igual a 75,000 pesos.</li>
-                                        <li>25% para mas de 75,000 y menos o igual a 125,000 pesos</li>
-                                        <li>20% para mas de 125,000 y menos o igual a 250,000 pesos</li>
-                                        <li>15% para mas de 250,000 y menos o igual a 500,000 pesos</li>
+                                        <p>35% para menos o igual a 25,000 pesos</li>
+                                        <p>30% para mas de 25,000 y menos o igual a 75,000 pesos.</p>
+                                        <p>25% para mas de 75,000 y menos o igual a 125,000 pesos</p>
+                                        <p>20% para mas de 125,000 y menos o igual a 250,000 pesos</p>
+                                        <p>15% para mas de 250,000 y menos o igual a 500,000 pesos</p>
                                     </ul>
                                 </div>
                             
@@ -129,7 +134,7 @@
             </div>       
     </div>
     <!--Footer--Footer--Footer--Footer--Footer-->
-    <?php require "views/include/footer.php" ?>
+    <?php require "include/footer.php" ?>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

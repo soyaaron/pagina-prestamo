@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Energy Equipment Solutions</title>
     <!--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon--FavIcon-->
-    <link rel="shortcut icon" type="image/png" href="views/dist/img/logo1.png">
-    <link rel="stylesheet" href="views/dist/css/estilos.css">
-    <link rel="stylesheet" href="views/dist/css/font.css">
+    <link rel="shortcut icon" type="image/png" href="dist/img/logo1.png">
+    <link rel="stylesheet" href="dist/css/estilos.css">
+    <link rel="stylesheet" href="dist/css/font.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body class=" " id="back">
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
-    <?php require "views/include/navbar.php" ?>
+    <?php require "include/navbar.php" ?>
         <div class="col-md-12 p-0">
             <div class="jumbotron jumbotron-fluid "id="parallax">
                 <div class="container">
@@ -82,61 +82,61 @@
                     <div class="row">
                         <!--Brandor Medina-->
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/brandor.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <img id="perfil" src="dist/img/brandor.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Brandor Medina</h2>
                             <p class="mb-4">Soy un programador Junior, encargado de la gestion de calidad del front end y creador las vistas principales de esta pagina.</p><p>
-                            <a href="https://www.facebook.com/BrandorMedina" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
-                            <a href="https://www.instagram.com/brandor_medina/" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
-                            <a href="https://twitter.com/BrandorMedina" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
+                            <a href="https://www.facebook.com/BrandorMedina" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
+                            <a href="https://www.instagram.com/brandor_medina/" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
+                            <a href="https://twitter.com/BrandorMedina" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                         <!--Reimy R. Mateo-->
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <img id="perfil" src="dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Reimy R. Mateo</h2>
                             <p class="mb-4">Encargado de la vista del usuario,la cual incluye la vista principal del usuario, solicitud, los préstamos y cuotas</p>                            <p>
-                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
+                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                         <!--Misael Mora Valerio-->
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/misael.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <img id="perfil" src="dist/img/misael.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Misael Mora</h2>
                             <p class="mb-4">DBA junior encargando del diseño, arquitectura y todo lo relacionado con esta.</p>                            <p>
-                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
+                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/joneiry.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
+                            <img id="perfil" src="dist/img/joneiry.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
                             <p class="mb-4">Este es un weon</p>                            <p>
-                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
+                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <img id="perfil" src="dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
                             <p class="mb-4">Este es un weon</p>                            <p>
-                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
+                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="views/dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <img id="perfil" src="dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
                             <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
                             <p class="mb-4">Este es un weon</p>                            <p>
-                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="views/dist/icon/facebook.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/instagram.svg"></a>
-                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="views/dist/icon/twitter.svg"></a>
+                            <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
+                            <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
         </div>
 
     <!--Footer--Footer--Footer--Footer--Footer-->
-    <?php require "views/include/footer.php" ?>
+    <?php require "include/footer.php" ?>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
