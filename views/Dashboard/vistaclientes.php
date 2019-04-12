@@ -27,7 +27,7 @@ require_once "../../model/Admin_model.php";
 
     <div class="row ">
 
-        <div class="col-md-4">
+        <div class="col-md-5">
             
             <div class="box box-solid box-success">
                 <div class="box-header">
