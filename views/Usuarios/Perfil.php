@@ -1,8 +1,3 @@
-
-
-
-
- 
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,15 +8,15 @@
 <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="views/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="views/dist/css/AdminLTE.min.css">
-<link rel="stylesheet" href="views/dist/css/skins/skin-blue.min.css">
-<link rel="stylesheet" href="/UsuarioPHP/template.css">
+  <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
+<link rel="stylesheet" href="../dist/css/skins/skin-blue.min.css">
+<link rel="stylesheet" href="../dist/css/template.css">
 </head>
-<body class="hold-transition skin-blue sidebar" href="views/dist/css/skins/skin-blue.min.css">
+<body class="hold-transition skin-blue sidebar" href="../dist/css/skins/skin-blue.min.css">
 
 <style> 
 
@@ -376,8 +371,9 @@ input:focus{
 
 </body>
   
-  <script src="views/plugins/jQuery/jquery-2.2.3.min.js"></script>
-<script src="views/bootstrap/js/bootstrap.min.js"></script><script src="views/dist/js/app.min.js"></script>
+<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../dist/js/app.min.js"></script>
 
 </body>
 </html>
