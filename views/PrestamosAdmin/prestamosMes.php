@@ -28,13 +28,9 @@
                 <a href="../PrestamosAdmin/prestamosMes.php" type="button" class="btn btn-default">Mes</a>
                 <a href="../PrestamosAdmin/prestamosAnio.php" type="button" class="btn btn-default">Año</a>
             </div>
-            <div class="box box-solid box-success">
-                <div class="box-header">
-                    <h3 class="box-title">Prestamos por mes</h3>
-                </div>
-                <div class="box-body">
+                    <h3 >Prestamos por mes</h3>
 
-                    <div class="row">
+                    <div class="row ">
                         <div class="col-md-3">
                             <h1><a href="vistamensual.php" id="enero">Enero</a></h1>
                         </div>
@@ -76,11 +72,8 @@
                             <h1> <a href="vistamensual.php" id="diciembre">Diciembre</a></h1>
                         </div>
                     </div>
-                </div>
 
-            </div>
 
-        </div>
 
 
     </div>
