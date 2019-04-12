@@ -16,29 +16,54 @@
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
     <?php require "views/include/IndexNavbar.php" ?>
 
-        <div id="body" class="m-3 p-3"> 
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3 "></li>
+                </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-interval="5000">
-                        <img src="views/dist/img/photo1.png" class="d-block w-100" alt="...">
+                        <img src="views/dist/img/slide1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Compra tu carro deseado!</h5>
+                            <p>Facilidades para comprar el vehiculo que deseas.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="views/dist/img/photo2.png" class="d-block w-100" alt="...">
+                        <img src="views/dist/img/slide2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Compra tu casa deseado!</h5>
+                            <p>Facilidades para comprar tu casa, con las tasas mas bajas del mercado que deseas.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="views/dist/img/photo3.jpg" class="d-block w-100" alt="...">
+                        <img src="views/dist/img/slide3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Efectivo!</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="views/dist/img/slide4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Todo al alcance de tus manos</h5>
+                        </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-        </div>
+
+            
+        
 
     <!--Footer--Footer--Footer--Footer--Footer-->
     <?php require "views/include/IndexFooter.php" ?>

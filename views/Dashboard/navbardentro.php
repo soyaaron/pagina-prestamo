@@ -4,15 +4,19 @@
     
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                <i class="fa fa-bars"></i>
-            </button>
+        <a href="../dashboard/dashboard.php" class="navbar-brand">Home</a>
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <i class="fa fa-bars"><img src="/views/dist/img/iconmenublanco.png" width="20" height="20">
+</i>
+          </button>
         </div>
 
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav">
-            <li><a href="../dashboard/dashboard.php">Home</a></li>
+            <li><a href="../dashboard/solicitudpersonal.php">Solicitud
+                                    personal</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solicitudes 
                         <span class="caret"></span></a>
@@ -27,10 +31,9 @@
             <li><a href="../PrestamosAdmin/prestamosActivos.php">Prestamos</a></li>
 
             <li><a href="../Dashboard/admintasas.php"> Administrar tasas</a></li>
-            <li class="active"><a href="../dashboard/solicitudpersonal.php"><i class="fa fa-link"></i> <span>Solicitud
-                                    personal</a></li>
-                        <li class="active"><a href="vistaclientes.php"><i class="fa fa-link"></i>
-                                <span>Clientes</span></a></li>
+            
+                        <li><a href="vistaclientes.php">
+                                Clientes</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
