@@ -110,14 +110,14 @@ tr:hover td{
 
   <div class="content-wrapper" style="margin-right:21%; margin-left:25% ; Margin-top:3%; height:20px; ">
     
-<div id="body" class="m-3 bg-light ">
+<div id="body" class="m-3 ">
 
         <div id="body" class="m-3">
-                <div class="site-section bg-light">
+                <div class="site-section">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-7 mb-5">
-                                <form id="formulario" class="p-5 bg-white" action = "../controllers/Calculadora_controller.php" method="POST">
+                                <form id="formulario" class="p-5" action = "../controllers/Calculadora_controller.php" method="POST">
                                     <div class="col-md-12 mx-auto">
                                         <h1 class="textcolorpurple"><b> Calculadora de Prestamos</b></h1>
                                         <div class="col-md-5 mx-auto text-black-50">
