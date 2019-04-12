@@ -63,11 +63,10 @@
             </div>
         
         </div>
-        <div class="clearfix d-flex justify-content-center">________________________________________________________________________________________________________________________________________________________________________ <br> <br>     </div>
-<br>
-            <div id="social"class="col-md-12 col sm-12 d-flex justify-content-center    ">
+        <div class="clearfix d-flex justify-content-center" ></div>
+            <div id="social"class="col-md-10 mx-auto col sm-10 d-flex justify-content-center" >
 
-                <a href=""><img clas="rounded-danger" src="dist/icon/facebook.png"></a>
+                <a href=""><img clas="rounded-danger" src="dist/icon/facebook.png" ></a>
                 
                 <a href=""><img src="dist/icon/twitter.png"></a>
                     
@@ -86,7 +85,7 @@
                     </div>
 
                     <div class="information">
-                        <a href="">Informacion Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    <a href="about.php">Informacion Compañia</a> | <a href="privacy/Politicadeuso.php"> Politicas de Uso</a> | <a href="privacy/terminosycondiciones.php">Terminos y Condiciones</a>
                     </div>
                 </div>
 

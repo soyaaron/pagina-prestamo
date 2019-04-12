@@ -16,11 +16,16 @@ $confirm = $loginModel->login($email);
 if ($confirm) {
    foreach ($confirm as $user) {
          $pass = $user["pass"];
-        if(password_verify($password,$pass)) {
+        if(password_verify($password,$pass) & $user["tipo"] == "admin") {
             session_start();
             $_SESSION["user"] = $user["nombre"];
 
             header("location: ../views/Dashboard/dashboard.php");
+        }else if(password_verify($password,$pass) & $user["tipo"] == "user"){
+            session_start();
+            $_SESSION["user"] = $user["nombre"];
+
+            header("location: ../views/Login/index.php");
         }else{
             header("location: ../views/Login/index.php"); 
         }

@@ -15,22 +15,21 @@
 
 <body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
-    <?php include "sidebar.php"; ?>
+    <?php include "../dashboard/sidebar.php"; ?>
 
 
     <div class="row ">
 
         <div class="col-md-6">
             <div class="btn-group" role="group">
-                <a href="../Dashboard/prestamosActivos.php" type="button" class="btn btn-default">Descendiente</a>
-                <a href="../Dashboard/prestamosMes.php" type="button" class="btn btn-default">Mes</a>
-                <a href="../Dashboard/prestamosAnio.php" type="button" class="btn btn-default">Año</a>
+                <a href="../PrestamosAdmin/prestamosMes.php" type="button" class="btn btn-default">← Atras</a>
+               
             </div>
             <div class="box box-solid box-success">
                 <div class="box-header">
-                    <h3 class="box-title">Vista anual</h3>
+                    <h3 class="box-title">Prestamos por mes</h3>
                 </div>
                 <div class="box-body">
 

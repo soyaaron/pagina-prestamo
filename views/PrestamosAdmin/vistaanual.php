@@ -1,11 +1,6 @@
-<?php
-require_once "../../model/Admin_model.php";
- $conexion = new Admin_model;
- $clientes = $conexion->users();
-?>
-
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Vista Admin</title>
@@ -20,51 +15,56 @@ require_once "../../model/Admin_model.php";
 
 <body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
-    <?php include "sidebar.php"; ?>
+    <?php include "../dashboard/sidebar.php"; ?>
 
 
     <div class="row ">
 
-        <div class="col-md-4">
-            
+        <div class="col-md-6">
+            <div class="btn-group" role="group">
+            <a href="../PrestamosAdmin/prestamosActivos.php" type="button" class="btn btn-default">Recientes</a>
+                <a href="../PrestamosAdmin/prestamosMes.php" type="button" class="btn btn-default">Mes</a>
+                <a href="../PrestamosAdmin/prestamosAnio.php" type="button" class="btn btn-default">Año</a>
+            </div>
             <div class="box box-solid box-success">
                 <div class="box-header">
-                    <h3 class="box-title">Todos los clientes</h3>
+                    <h3 class="box-title">Vista anual</h3>
                 </div>
                 <div class="box-body">
-                    <table class="table table-condensed">
+
+                <table class="table">
                         <tbody>
                             <tr>
                                 <th>Nombre</th>
-                                <th>Apellido</th>
-                                <th>Cedula</th>
-                                <th>Sexo</th>
-                                <th>Nacionalidad</th>
-                                <th>Estrellas</th>
+                                <th>Monto a pagar</th>
+                                <th>Monto pagado</th>
+                                <th>Fecha</th>
+                                <th>Fecha de pago</th>
+                                <th>Estado</th>
 
                             </tr>
-                            <?php foreach ($clientes as $user) {?>          
                             <tr>
-                                <td><?php echo $user['nombre']; ?></td>
-                                <td><?php echo $user["apellido"] ?></td>
-                                <td><?php echo $user["cedula"] ?></td>
-                                <td><?php echo $user["sexo"] ?></td>
-                                <td><?php echo $user["nacionalidad"] ?></td>
-                                <td>estrellas / <b>5</b> ⭐</td>
-                                <td><a class="btn btn-default" href="perfilcliente.php">ver mas</a></td>
+                                <td>id_usuario_solicitante</td>
+                                <td>monto_Pagar</td>
+                                <td>monto_Pagado</td>
+                                <td>fecha</td>
+                                <td>fecha_pago</td>
+                                <td>estado</td>
+
+
                             </tr>
-                            <?php }?>
                         </tbody>
 
 
                     </table>
-                </div>
 
             </div>
 
         </div>
+
+    </div>
 
 
     </div>

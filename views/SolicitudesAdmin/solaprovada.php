@@ -13,30 +13,29 @@
 
 </head>
 
-<body class="hold-transition skin-green-light sidebar-mini">
-<div class="wrapper">
-
+<body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
-    <?php include "sidebar.php"; ?>
-<div classs="content-wrapper">
+
     <div class="row">
         <div class="col-md-5">
 
-            <div class="box box-solid box-warning">
+            <div class="box box-solid box-success">
                 <div class="box-header">
-                    <h3 class="box-title">Solicitudes</h3>
+                    <h3 class="box-title">Solicitudes aprobadas</h3>
                 </div>
                 <div class="box-body">
-                    <table class="table">
+
+                <table class="table">
                         <tbody>
-                            <tr>
+                        <tr>
                                 <th>Nombre</th>
                                 <th>Cantidad</th>
                                 <th>Tiempo</th>
                                 <th>Descripcion</th>
                                 <th>Fecha</th>
+                                <th></th>
 
                             </tr>
                             <tr>
@@ -45,7 +44,8 @@
                                 <td>tiempo</td>
                                 <td>descripcion</td>
                                 <td>fecha </td>
-                                <td><button type="button" class="btn btn-flat" href="infoprestamo.php">Ver mas </button></td>
+                                <td></td>
+
                             </tr>
                         </tbody>
 
@@ -56,10 +56,6 @@
 
         </div>
     </div>
-<div>
-    <!--content wrapper-->
-</div>
-<!--wrapper-->
 
     <script src="../dist/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -6,6 +6,7 @@
     <title>Vista Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    
     <link rel="stylesheet" href="../dist/css/AdminLTE.css">
     <link rel="stylesheet" href="../dist/css/skins/_all-skins.css">
     <link rel="stylesheet" href="../bootstrap/css/formatos.css">
@@ -13,29 +14,30 @@
 
 </head>
 
-<body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
-    <header class="main-header">
-        <?php include "navbardentro.php"; ?>
-    </header>
+<body class="hold-transition skin-green-light sidebar-mini">
 
+    <header class="main-header">
+        <?php include '../dashboard/navbardentro.php'; ?>
+    </header>
+    <?php include '../dashboard/sidebar.php'; ?>
+    
+<div classs="content-wrapper">
     <div class="row">
         <div class="col-md-5">
 
-            <div class="box box-solid box-success">
+            <div class="box box-solid box-warning">
                 <div class="box-header">
-                    <h3 class="box-title">Solicitudes aprobadas</h3>
+                    <h3 class="box-title">Solicitudes</h3>
                 </div>
                 <div class="box-body">
-
-                <table class="table">
+                    <table class="table">
                         <tbody>
-                        <tr>
+                            <tr>
                                 <th>Nombre</th>
                                 <th>Cantidad</th>
                                 <th>Tiempo</th>
                                 <th>Descripcion</th>
                                 <th>Fecha</th>
-                                <th></th>
 
                             </tr>
                             <tr>
@@ -44,8 +46,7 @@
                                 <td>tiempo</td>
                                 <td>descripcion</td>
                                 <td>fecha </td>
-                                <td></td>
-
+                                <td><a type="button" class="btn btn-default" href="infoprestamo.php">Ver mas </a></td>
                             </tr>
                         </tbody>
 
@@ -56,6 +57,8 @@
 
         </div>
     </div>
+<div>
+    <!--content wrapper-->
 
     <script src="../dist/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

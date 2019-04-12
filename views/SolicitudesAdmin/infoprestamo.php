@@ -15,17 +15,15 @@
 
 <body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
-    <?php include "sidebar.php"; ?>
 
-
+    <?php include "../dashboard/sidebar.php"; ?>
     <div class="row">
         <div class="form-group col-md-5">
 
             <form data-toggle="boostrapValidate">
-                <h2>Perfil del Cliente </h2><br>
-                <h3 id=estrellas> /5 ⭐</h3>
+                <h2>Solicitud: </h2><br>
                 <div class="form-group col-md-5" style="margin-right:17px;margin-left:17px;">
                     <label>Nombre </label>
                     <input readonly type="text" id="Nombre" placeholder="Nombre" class="form-control" style="width:120%;	border: 2px solid ;
@@ -235,13 +233,15 @@
 
     </div>
 
-    <script src="../dist/js/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
-    <script src="../dist/js/app.js"></script>
-
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
