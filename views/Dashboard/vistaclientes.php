@@ -1,6 +1,11 @@
+<?php
+require_once "../../model/Admin_model.php";
+ $conexion = new Admin_model;
+ $clientes = $conexion->users();
+?>
+
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>Vista Admin</title>
@@ -29,21 +34,28 @@
                     <h3 class="box-title">Todos los clientes</h3>
                 </div>
                 <div class="box-body">
-
                     <table class="table table-condensed">
                         <tbody>
                             <tr>
                                 <th>Nombre</th>
                                 <th>Apellido</th>
+                                <th>Cedula</th>
+                                <th>Sexo</th>
+                                <th>Nacionalidad</th>
                                 <th>Estrellas</th>
 
                             </tr>
+                            <?php foreach ($clientes as $user) {?>          
                             <tr>
-                                <td>nombre</td>
-                                <td>apellido</td>
+                                <td><?php echo $user['nombre']; ?></td>
+                                <td><?php echo $user["apellido"] ?></td>
+                                <td><?php echo $user["cedula"] ?></td>
+                                <td><?php echo $user["sexo"] ?></td>
+                                <td><?php echo $user["nacionalidad"] ?></td>
                                 <td>estrellas / <b>5</b> ⭐</td>
                                 <td><a class="btn btn-default" href="perfilcliente.php">ver mas</a></td>
                             </tr>
+                            <?php }?>
                         </tbody>
 
 

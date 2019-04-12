@@ -27,8 +27,6 @@
     </header>
     <?php include "sidebar.php"; ?>
 
-    <h1><?php echo $_SESSION["user"]; ?></h1>
-
     <div class="row">
         <div class="col-md-5">
 

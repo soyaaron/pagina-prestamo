@@ -6,7 +6,7 @@ require_once ("Conection_BD.php");
 class Login_model extends Conection_BD {
 
 
-    # CONFIRMAR LA EXISTENCIA DEL USER Y EL PASSWORD
+# CONFIRMAR LA EXISTENCIA DEL USER Y EL PASSWORD
 public function login($email){
 
     $connection = parent::conectar();

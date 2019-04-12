@@ -5,11 +5,13 @@ require_once("Conection_BD.php");
 class Admin_model extends Conection_BD{
 
 
+# ESTE METODO SE ENCARGARA DE TRAER LA INFORMACION DE LOS USUARIOS REGISTRADOS. 
     public function users(){
         $connection = parent::conectar();
         
         try {
-            $query = "";
+            $query = "SELECT nombre,apellido,cedula,sexo,nacionalidad FROM usuario ";
+            return $connection->query($query)->fetchAll();
         } catch (PDOException $e) {
             exit("ERROR:".$e->getMessage());
         }finally{
