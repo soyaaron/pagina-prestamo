@@ -25,7 +25,7 @@ if ($confirm) {
             session_start();
             $_SESSION["user"] = $user["nombre"];
 
-            header("location: ../views/Login/index.php");
+            header("location: ../views/Usuarios/Perfil.php");
         }else{
             header("location: ../views/Login/index.php"); 
         }
