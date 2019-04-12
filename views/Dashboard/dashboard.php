@@ -13,8 +13,8 @@
 
 </head>
 
-<body class="hold-transition skin-blue sidebar-mini">
-    <header class="main-header">
+<body class="skin-green-light layout-top-nav">
+        <header class="main-header">
         <?php include "navbardentro.php"; ?>
     </header>
     <?php include "sidebar.php"; ?>

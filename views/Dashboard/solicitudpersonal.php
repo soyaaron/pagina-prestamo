@@ -22,7 +22,7 @@
         <div class="form-group col-md-5">
 
             <form data-toggle="boostrapValidate">
-
+                <h2>Solicitud de prestamo: </h2><br>
                 <div class="form-group col-md-5" style="margin-right:17px;margin-left:17px;">
                     <label>Nombre </label>
                     <input type="text" id="Nombre" placeholder="Nombre" class="form-control" style="width:120%;	border: 2px solid ;
