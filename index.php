@@ -12,58 +12,83 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body class=" " id="parallax">
+<body>
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
     <?php require "views/include/IndexNavbar.php" ?>
 
-        
-            <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="3 "></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-interval="5000">
-                        <img src="views/dist/img/slide1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Compra tu carro deseado!</h5>
-                            <p>Facilidades para comprar el vehiculo que deseas.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="views/dist/img/slide2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Compra tu casa deseado!</h5>
-                            <p>Facilidades para comprar tu casa, con las tasas mas bajas del mercado que deseas.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="views/dist/img/slide3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Efectivo!</h5>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="views/dist/img/slide4.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Todo al alcance de tus manos</h5>
-                        </div>
-                    </div>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3 "></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="5000">
+                <img src="views/dist/img/slide1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Compra tu carro deseado!</h5>
+                    <p>Facilidades para comprar el vehiculo que deseas.</p>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
+            <div class="carousel-item">
+                <img src="views/dist/img/slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Compra tu casa deseado!</h5>
+                    <p>Facilidades para comprar tu casa, con las tasas mas bajas del mercado que deseas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="views/dist/img/slide3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Efectivo!</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="views/dist/img/slide4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Todo al alcance de tus manos</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
-            
-        
+    <div class="row">
+
+        <div class="col-md-10 mx-auto">
+        <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Entregas al instante. <span class="text-muted">Rapido y seguro</span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nesciunt, totam expedita voluptas soluta dolorum voluptatibus reprehenderit accusantium, unde sit cumque odio. Nesciunt, labore. Laborum doloribus commodi omnis ullam labore!
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img id="imgindex" src="views/dist/img/imgindex1.jpg" alt="">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Seguridad. <span class="text-muted">Nosotros nos encargamos.</span></h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nesciunt, totam expedita voluptas soluta dolorum voluptatibus reprehenderit accusantium, unde sit cumque odio. Nesciunt, labore. Laborum doloribus commodi omnis ullam labore!
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img id="imgindex" src="views/dist/img/imgindex2.jpg" alt="">
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
 
     <!--Footer--Footer--Footer--Footer--Footer-->
     <?php require "views/include/IndexFooter.php" ?>
