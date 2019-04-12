@@ -44,6 +44,9 @@ input{
 	outline: none;
 
 }
+
 input:focus{
 		border-color:dodgerblue;
 }
+
+
