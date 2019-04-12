@@ -29,7 +29,7 @@
 	
 	
 	width:100%;
-	height: 100%;
+	height: 10%;
 	position: absolute;     
 }
 .sidebar h2{
