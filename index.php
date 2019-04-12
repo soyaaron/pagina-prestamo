@@ -15,15 +15,29 @@
 <body class=" " id="parallax">
     <!--Navbar--Navbar--Navbar--Navbar--Navbar-->
     <?php require "views/include/IndexNavbar.php" ?>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="views/dist/img/ees.jpg" class="d-block w-100" alt="...">
-                </div>
-        </div>
 
         <div id="body" class="m-3 p-3"> 
-                
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="5000">
+                    <img src="views/dist/img/photo1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="views/dist/img/photo2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="views/dist/img/photo3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
 
     <!--Footer--Footer--Footer--Footer--Footer-->
