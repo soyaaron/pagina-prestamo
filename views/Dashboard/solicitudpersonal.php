@@ -226,6 +226,12 @@
 	border-radius: 4px;
   outline: none;">
                 </div>
+                <div>
+                    <label>Prestamo</label>
+                    <input type="text" id="monto" placeholder="Cantidad de prestamo" class="form-control" style="margin-left:30px;width:90%;border: 2px solid ;
+	border-radius: 4px;
+  outline: none;">
+                </div>
                 <br>
                 <div class="form-group col-md-5" style="margin-right:17px;margin-left:17px;">
                     <a type="button" class="btn btn-success" id="aceptarsolicitud">Aceptar solicitud</a>
