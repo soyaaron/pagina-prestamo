@@ -15,7 +15,6 @@
 </head>
 
 <body class="hold-transition skin-green-light sidebar-mini">
-<div class="wrapper">
 
     <header class="main-header">
         <?php include '../dashboard/navbardentro.php'; ?>
@@ -60,8 +59,6 @@
     </div>
 <div>
     <!--content wrapper-->
-</div>
-<!--wrapper-->
 
     <script src="../dist/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
