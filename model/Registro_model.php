@@ -18,8 +18,8 @@ public function registry($nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estad
     }
     
     try {
-        $query = "INSERT INTO usuario (nombre,apellido,fecha_nacimiento,cedula,sexo,estado_civil,nacionalidad,direccion_calle,apartamento,provincia,municipio,correo_electronico,pass) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)";
-        $connection->prepare($query)->execute([$nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$pass]);
+        $query = "INSERT INTO usuario (nombre,apellido,fecha_nacimiento,cedula,sexo,estado_civil,nacionalidad,direccion_calle,apartamento,provincia,municipio,correo_electronico,pass,tipo) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+        $connection->prepare($query)->execute([$nombre,$apellido,$fechaNacimiento,$cedula,$sexo,$estadoCivil,$nacionalidad,$direccionCalle,$apartamento,$provincia,$municipio,$correo,$pass,"user"]);
 
     } catch (PDOException $e) {
         exit("ERROR:".$e->getMessage());

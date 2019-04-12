@@ -38,7 +38,7 @@
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="../Dashboard/ayuda.php">Ayuda</a></li>
                         <li class="divider"></li>
-                        <li><a href="../Login/index.php">Cerrar Sesión</a></li>
+                        <li><a href="../../controllers/logOut_Controller.php">Cerrar Sesión</a></li>
                     </ul>
                 </li>
             </ul>

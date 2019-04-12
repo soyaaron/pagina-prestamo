@@ -14,10 +14,20 @@
 </head>
 
 <body class="skin-green-light layout-top-nav">
+<!--ESTE CODIGO PHP SE ENCARGARA DE MANTENER ABIERTA LA SESIONES DEL USUARIO ACTUAL  -->
+<?php 
+    session_start();
+    if (!isset($_SESSION["user"])) {
+       header("Location: ../Login/index.php");
+    }
+?>
+<!--------------------------------------------------------------------------------------------------------------->
         <header class="main-header">
         <?php include "navbardentro.php"; ?>
     </header>
     <?php include "sidebar.php"; ?>
+
+    <h1><?php echo $_SESSION["user"]; ?></h1>
 
     <div class="row">
         <div class="col-md-5">
