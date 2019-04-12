@@ -9,13 +9,13 @@
 <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
   <!-- Theme style -->
   <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
 <link rel="stylesheet" href="../dist/css/skins/skin-blue.min.css">
-<link rel="stylesheet" href="../dist/css/estilos.css">
+<link rel="stylesheet" href="../dist/css/estilos.css"><link rel="stylesheet" href="dist/css/estilos.css">
+    <link rel="stylesheet" href="dist/css/font.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body class="hold-transition skin-blue sidebar-mini" href="../dist/css/skins/skin-blue.min.css">
 <aside class="main-sidebar">
@@ -94,11 +94,11 @@ tr:hover td{
 <ul class="sidebar-menu" >
   <li class="header" style="margin-right:10px;;"><h2> Impekable </h2> </li>
 
-  <li class="active"><a href="historial.php"><i class="fas fa-home"></i>Home-calculadora </a></li>
+  <li class="active"><a href="calculadora.php"><i class="fas fa-home"></i>Home-calculadora </a></li>
   <li><a href="prueba.php"><i class="fas fa-receipt"></i> <span>Historial de prestamos</span></a></li>
    <li><a href="solicitud-prestamo.php"><i class="fas fa-envelope"></i> <span>Solicitud de prestamos</span></a></li>
   <li class="treeview">
-    <a href="perfil.php"><i class="fas fa-user"></i></i> <span>Perfil usuario </span>
+    <a href="perfil.php"><i class="fas fa-user"></i></i> <span>Perfil usuario </span></a>
 
   </li>
 </ul>
@@ -111,15 +111,6 @@ tr:hover td{
   <div class="content-wrapper" style="margin-right:21%; margin-left:25% ; Margin-top:3%; height:20px; ">
     
 <div id="body" class="m-3 bg-light ">
-
-        <div class="col-md-12 p-0">
-            <div class="jumbotron jumbotron-fluid" id="parallax">
-                <div class="container">
-                    <h1 class="display-4">Calculadora</h1>
-                    <p class="lead">Aqui puedes previsualizar las tasas y cuentos para el prestamo que deceas realizar</p>
-                </div>
-            </div>
-        </div>
 
         <div id="body" class="m-3">
                 <div class="site-section bg-light">
@@ -234,12 +225,6 @@ tr:hover td{
                                         </p>
                                     </ul>
                                 </div>
-                            <!--
-                                <div class="p-4 mb-3 bg-white">
-                                    <h3 class="h5 text-black mb-3">Más información</h3>
-                                    <p>lorem.</p>              
-                                </div>
-                                        -->
                             </div>
                         </div>
                     </div>
@@ -264,9 +249,8 @@ tr:hover td{
 
 </body>
   
-<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
-<script src="../bootstrap/js/bootstrap.min.js"></script>
-<script src="../dist/js/app.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
