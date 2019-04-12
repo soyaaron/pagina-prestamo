@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <link rel="shortcut icon" type="image/png" href="../dist/img/logo1.png">
   <title>Sistema de financiamiento</title>
 
 <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
@@ -26,7 +27,33 @@
     
         
 </div>
+<style> 
 
+.sidebar{
+	
+	
+	width:100%;
+	height: 10%;
+	position: absolute;     
+}
+.sidebar h2{
+	
+	
+	text-align: center;
+	padding: 0;
+	margin:0;
+ border-color: red;
+ color:white;
+}
+body {
+	height: 100%;
+	background-image: url("../img/fondo-login.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+</style>
 
 <ul class="sidebar-menu" >
   <li class="header" style="margin-right:10px;;"><h2> Impekable </h2> </li>
@@ -46,22 +73,72 @@
 
 
   <div class="content-wrapper" style="margin-right:21%; margin-left:25% ; Margin-top:3%; height:20px; ">
-  <style>
-h2{
- color:green;
- margin-left:5%;
-}
+    <style>
+    
 h3{
- color:green;
+ color:black;
  margin-left:5%;
 }
+
+ h3{
+	color:black;
+	size: 15px;
+	font-size: 20px;
+	text-shadow: unset;
+	margin-right: 20px;
+  
+  
+
+}
+
+
+  h2{
+    margin-left:30px;
+    color:Black;
+font-family:Copperplate Gothic Light; 
+
+}
+
+
+input{
+
+	border: 2px solid ;
+	border-radius: 4px;
+  outline: none;
+}
+
 label{
-  color:black;
+font-size:14px;
+color:black;
+
 }
 .main-form{
     width: 450px;
     margin: auto;
 }
+img{
+
+	content:12px;
+	border-image:40px;
+	height:60px;
+
+  margin-left:5%;
+  margin-right:2%;
+  margin-top:2%;
+ border-radius:50% ; 
+width: 70px;
+	float: left;
+}
+input:focus{
+		border-color:dodgerblue;
+}
+input {
+
+    width:120%;	
+    border: 2px solid;
+}
+
+
 </style>
 
 <div class="conatiner"><h2> Solicitud de prestamos</h2>
@@ -81,25 +158,25 @@ label{
 
 <div class="form-group col-md-4">
     <label >Monto solicitado </label>
-    <input type="number" id="monto" placeholder="Monto o cantidad" class="form-control" style="width:120%;" >
+    <input type="number" id="monto" placeholder="Monto o cantidad" class="form-control" >
 </div>
 <div class="form-group col-md-4">
     <label > Fecha</label>
-    <input type="date" id="fecha" placeholder="Fecha en que realizo el prestamo" class="form-control"style="width:115%; margin-right:20%;" >
+    <input type="date" id="fecha" placeholder="Fecha en que realizo el prestamo" class="form-control" >
 
 </div>
 <div class="form-group col-md-5">
     <label style="margin-left:20px;"> Tiempo del prestamo </label>
-    <input type="week"  id="tiempo" placeholder="Tiempo de prestamo" class="form-control"  style="">
+    <input type="week"  id="tiempo" placeholder="Tiempo de prestamo" class="form-control"  >
 </div>
 <div class="form-group col-md-5">
     <label style="margin-left:30px;"> cedula </label>
-    <input type="Number"  id="tiempo" placeholder="cedula de identidad" class="form-control"  style="margin-left:5px;">
+    <input type="Number"  id="tiempo" placeholder="cedula de identidad" class="form-control"  >
 
 </div>
  <div class="form-group col-md-2">
    <label for="">garante</label>
-        <select name="garante" class="custom-select" id="inputGroupSelect02" style="margin-top:;20px">
+        <select name="garante" class="custom-select" id="inputGroupSelect02">
           <option value="1">si</option>
           <option value="2">no</option>
         </select>
