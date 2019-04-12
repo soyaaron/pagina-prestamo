@@ -25,7 +25,7 @@
 
             <form data-toggle="boostrapValidate">
                 <h2>Perfil del Cliente </h2><br>
-                    <h3 id=estrellas> /5 ⭐</h3>
+                <h3 id=estrellas> /5 ⭐</h3>
                 <div class="form-group col-md-5" style="margin-right:17px;margin-left:17px;">
                     <label>Nombre </label>
                     <input readonly type="text" id="Nombre" placeholder="Nombre" class="form-control" style="width:120%;	border: 2px solid ;
@@ -40,31 +40,30 @@
                 </div>
                 <div class="form-group col-md-4" style="margin-left:20px;">
                     <label> Fecha</label>
-                    <input readonly type="date" id="fecha" placeholder="Fecha en que realizo el prestamo" class="form-control"
-                        style="width:115%; margin-right:20%;border: 2px solid ;
+                    <input readonly type="date" id="fecha" placeholder="Fecha en que realizo el prestamo"
+                        class="form-control" style="width:115%; margin-right:20%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;">
 
                 </div>
                 <div class="form-group col-md-1 " style=" margin-right:20px;">
                     <label for="">sexo</label>
-                    <input readonly type="text" id="sexo" placeholder="sexo usuario" class="form-control"
-                        style="width:115%; margin-right:20%;border: 2px solid ;
+                    <input readonly type="text" id="sexo" placeholder="sexo usuario" class="form-control" style="width:115%; margin-right:20%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;">
                 </div>
 
                 <div class="form-group col-md-12" style="margin-left:20px;">
                     <label for="">Estado Civil</label>
-                    <input readonly type="text" id="estado_civil" placeholder="Estado civil" class="form-control"
-                        style="width:115%; margin-right:20%;border: 2px solid ;
+                    <input readonly type="text" id="estado_civil" placeholder="Estado civil" class="form-control" style="width:115%; margin-right:20%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;">
                 </div>
 
                 <div class="form-group col-md-6" Style="margin-left:17px;">
                     <label style="margin-left:5px;"> Cedula de identidad </label>
-                    <input readonly type="Number" id="tiempo" placeholder="cedula de identidad" class="form-control" style="margin-left:5px;border: 2px solid ;
+                    <input readonly type="Number" id="tiempo" placeholder="cedula de identidad" class="form-control"
+                        style="margin-left:5px;border: 2px solid ;
 	border-radius: 4px;
   outline: none;">
 
@@ -228,7 +227,7 @@
   outline: none;">
                 </div>
                 <br>
-              
+
             </form>
 
         </div>
