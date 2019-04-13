@@ -58,11 +58,11 @@ body {
 <ul class="sidebar-menu" >
   <li class="header" style="margin-right:10px;;"><h2> Impekable </h2> </li>
 
-  <li class="active"><a href="Perfil.php"><i class="fas fa-home"></i>Home-calculadora </a></li>
+  <li class="active"><a href="calculadora.php"><i class="fas fa-home"></i>Home-calculadora </a></li>
   <li><a href="prueba.php"><i class="fas fa-receipt"></i> <span>Historial de prestamos</span></a></li>
    <li><a href="solicitud-prestamo.php"><i class="fas fa-envelope"></i> <span>Solicitud de prestamos</span></a></li>
   <li class="treeview">
-    <a href="Perfil.php"><i class="fas fa-user"></i></i> <span>Perfil usuario </span>
+    <a href="Perfil.php"><i class="fas fa-user"></i></i> <span>Perfil usuario </span></a>
 
   </li>
 </ul>
