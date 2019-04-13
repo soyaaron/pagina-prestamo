@@ -81,7 +81,7 @@
                     <h2 class="featurette-heading">Seguridad <span class="text-muted">Nosotros nos encargamos.</span></h2>
                     <p class="lead">Realize la transacion de forma totalmente seguro Nosotros mismos nos encargamos de dar mantenimiento,y asi sus solicitudes seran procesadas de manera seguro y eficas, y ademas 
 
-Ponemos a tu disposición esta facilidad que te  ayuda a satisfacer tus necesidades de financiamiento como consolidación de deudas, compra de electrodomésticos y equipos tecnológicos, salud, viajes o cualquier otro propósito que consideres importante. Úsalo para consolidar tus deudas, vacacionar o pagar tus estudios. 
+Ponemos a tu disposición esta facilidad que te   ayuda a satisfacer tus necesidades de financiamiento como consolidación de deudas, compra de electrodomésticos y equipos tecnológicos, salud, viajes o cualquier otro propósito que consideres importante. Úsalo para consolidar tus deudas, vacacionar o pagar tus estudios. 
                     </p>
                 </div>
                 <div class="col-md-5">
