@@ -67,9 +67,9 @@
         <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Entregas al instante. <span class="text-muted">Rapido y seguro</span></h2>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nesciunt, totam expedita voluptas soluta dolorum voluptatibus reprehenderit accusantium, unde sit cumque odio. Nesciunt, labore. Laborum doloribus commodi omnis ullam labore!
-                    </p>
+                    <h2 class="featurette-heading"> Préstamo de Consumo Personal <span class="text-muted"></span></h2>
+                    <p class="lead">Nuestro Préstamo de Consumo Personal está dirigido a quienes deseen satisfacer necesidades de consumo como la compra de electrodomésticos, vehículos, computadoras, pago de gastos médicos y viajes.
+                    Ponemos a disposición la opción de pagar las cuotas de tu préstamo a través de transferencias desde tus cuentas.</p>
                 </div>
                 <div class="col-md-5">
                     <img id="imgindex" src="views/dist/img/imgindex1.jpg" alt="">
@@ -78,8 +78,10 @@
             <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Seguridad. <span class="text-muted">Nosotros nos encargamos.</span></h2>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, nesciunt, totam expedita voluptas soluta dolorum voluptatibus reprehenderit accusantium, unde sit cumque odio. Nesciunt, labore. Laborum doloribus commodi omnis ullam labore!
+                    <h2 class="featurette-heading">Seguridad <span class="text-muted">Nosotros nos encargamos.</span></h2>
+                    <p class="lead">Realize la transacion de forma totalmente seguro Nosotros mismos nos encargamos de dar mantenimiento,y asi sus solicitudes seran procesadas de manera seguro y eficas, y ademas 
+
+Ponemos a tu disposición esta facilidad que te ayuda a satisfacer tus necesidades de financiamiento como consolidación de deudas, compra de electrodomésticos y equipos tecnológicos, salud, viajes o cualquier otro propósito que consideres importante. Úsalo para consolidar tus deudas, vacacionar o pagar tus estudios. 
                     </p>
                 </div>
                 <div class="col-md-5">
