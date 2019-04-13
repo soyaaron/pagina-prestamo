@@ -18,14 +18,14 @@ if ($confirm) {
          $pass = $user["pass"];
         if(password_verify($password,$pass) & $user["tipo"] == "admin") {
             session_start();
-            $_SESSION["user"] = $user["nombre"];
+            $_SESSION["user"] = $user["correo_electronico"];
 
             header("location: ../views/Dashboard/dashboard.php");
         }else if(password_verify($password,$pass) & $user["tipo"] == "user"){
             session_start();
-            $_SESSION["user"] = $user["nombre"];
+            $_SESSION["user"] = $user["correo_electronico"];
 
-            header("location: ../views/Login/index.php");
+            header("location: ../views/Usuarios/Perfil.php");
         }else{
             header("location: ../views/Login/index.php"); 
         }

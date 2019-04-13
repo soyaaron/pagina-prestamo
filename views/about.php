@@ -114,26 +114,28 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
                             <img id="perfil" src="dist/img/joneiry.jpg" alt="Image" class="img-fluid w-50 rounded-circle mb-4">
-                            <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
-                            <p class="mb-4">Este es un weon</p>                            <p>
+                            <h2 class="text-black font-weight-light mb-4">Joneiry G. Montero</h2>
+                            <p class="mb-4">Soy Programador junior, encargado de los procesos de los datos.
+                                junto con mi compañero Onix, nos encargamos de la gention y procesos
+                                del lado del Servidor con tecnologia PHP</p>                            <p>
                             <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
-                            <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
-                            <p class="mb-4">Este es un weon</p>                            <p>
+                            <img id="perfil" src="dist/img/Aaron.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <h2 class="text-black font-weight-light mb-4">Aaron Martínez A.</h2>
+                            <p class="mb-4">Encargado de la vista de administracion, incluye las vistas de perfiles de usuarios, solicitud personal e historial de pagos.</p>                            <p>
                             <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>
                             </p>
                         </div>
                         <div class="col-md-6 col-lg-4 text-center mb-5 aos-init aos-animate" data-aos="fade-up">
-                            <img id="perfil" src="dist/img/reimy.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
-                            <h2 class="text-black font-weight-light mb-4">Reimy Ricardo</h2>
-                            <p class="mb-4">Este es un weon</p>                            <p>
+                            <img id="perfil" src="dist/img/onix.jpg" alt="Image" class="img-fluid rounded-circle mb-4">
+                            <h2 class="text-black font-weight-light mb-4">Onix Pimentel</h2>
+                            <p class="mb-4">Back-end</p>                            <p>
                             <a href="#" class="pl-0 pr-3"><img id="icon-perfil" src="dist/icon/facebook.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/instagram.svg"></a>
                             <a href="#" class="pl-3 pr-3"><img id="icon-perfil" src="dist/icon/twitter.svg"></a>

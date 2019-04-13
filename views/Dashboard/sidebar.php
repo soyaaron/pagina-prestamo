@@ -1,4 +1,4 @@
-   <!-- Left side column. contains the logo and sidebar 
+   Left side column. contains the logo and sidebar 
    <aside class="main-sidebar">
                 <section class="sidebar">
 
@@ -10,4 +10,4 @@
 
                     </ul>
                 </section>
-            </aside>  -->
+            </aside> 
