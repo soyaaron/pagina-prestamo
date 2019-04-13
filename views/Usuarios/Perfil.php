@@ -1,3 +1,17 @@
+<?php
+require_once "../../model/Login_model.php";
+$conexion = new Login_model;
+
+session_start();
+$email = $_SESSION["user"];
+$detalles = $conexion->login($email);
+
+    if (!isset($email)) {
+       header("Location: ../Login/index.php");
+    }
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,11 +74,11 @@ body {
       <ul class="sidebar-menu" >
         <li class="header" style="margin-right:10px;;"><h2> Impekable </h2> </li>
     
-        <li class="active"><a href="/SistemaPHP/views/historial.php"><i class="fas fa-home"></i>Home-calculadora </a></li>
-        <li><a href="#"><i class="fas fa-receipt"></i> <span>Historial de prestamos</span></a></li>
-         <li><a href="/SistemaPHP/views/template.php"><i class="fas fa-envelope"></i> <span>Solicitud de prestamos</span></a></li>
+        <li class="active"><a href=" "><i class="fas fa-home"></i>Home-calculadora </a></li>
+        <li><a href="prueba.php"><i class="fas fa-receipt"></i> <span>Historial de prestamos</span></a></li>
+         <li><a href="solicitud-prestamo.php"><i class="fas fa-envelope"></i> <span>Solicitud de prestamos</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fas fa-user"></i></i> <span>Perfil usuario </span>
+          <a href="Perfil.php"><i class="fas fa-user"></i></i> <span>Perfil usuario </span>
    
         </li>
       </ul>
@@ -161,48 +175,45 @@ input:focus{
    <div class="row">
 <div class="form-group col-md-6">
 
+<?php foreach ($detalles as  $user) { ?>
+
 <form data-toggle="boostrapValidate">
+
+
 
 <div class="form-group col-md-5"style="margin-right:17px;margin-left:17px;">
     <label >Nombre </label>
-    <input type="text" id="Nombre" placeholder="Nombre" class="form-control" style="width:120%;	border: 2px solid ;
+    <input type="text" id="Nombre" placeholder="<?php echo $user["nombre"] ?>" class="form-control" style="width:120%;	border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
 <div class="form-group col-md-5">
     <label >apellido </label>
-    <input type="text" id="Apellido" placeholder="Apellido" class="form-control" style="width:120%;border: 2px solid ;
+    <input type="text" id="Apellido" placeholder="<?php echo $user["apellido"] ?>" class="form-control" style="width:120%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
 <div class="form-group col-md-4"style="margin-left:20px;">
     <label > Fecha</label>
-    <input type="date" id="fecha" placeholder="Fecha en que realizo el prestamo" class="form-control"style="width:115%; margin-right:20%;border: 2px solid ;
+    <input type="text" id="fecha" placeholder="<?php echo $user["fecha_nacimiento"] ?>" class="form-control"style="width:115%; margin-right:20%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 
 </div>
 <div class="form-group col-md-1 "style=" margin-right:20px;" >
    <label for="">sexo</label>
-        <select name="garante" class="custom-select" id="inputGroupSelect02" style="margin-top:;20px">
-           <option value="1">M/f</option>
-          <option value="2">Masculino</option>
-          <option value="3">Femenino</option>
-        </select>
+        <input tipe="text" name="garante" placeholder="<?php echo $user["sexo"] ?>" class="custom-select" id="inputGroupSelect02" style="margin-top:;20px">
       </div>
       
       <div class="form-group col-md-12"style="margin-left:20px;">
    <label for="">Estado Civil</label>
-        <select name="garante" class="custom-select" id="inputGroupSelect02" style="margin-botton:">
-           <option value="1">Soltero</option>
-          <option value="2">Casado</option>
+        <input tipe="text" placeholder="<?php echo $user["estado_civil"] ?>" name="garante" class="custom-select" id="inputGroupSelect02" style="margin-botton:">
           
-        </select>
       </div>
 
  <div class="form-group col-md-6"Style="margin-left:17px;">
     <label style="margin-left:5px;"> cedula de identidad </label>
-    <input type="Number"  id="tiempo" placeholder="cedula de identidad" class="form-control"  style="margin-left:5px;border: 2px solid ;
+    <input type="Number"  id="tiempo" placeholder="<?php echo $user["cedula"] ?>" class="form-control"  style="margin-left:5px;border: 2px solid ;
 	border-radius: 4px;
   outline: none;">
 
@@ -214,26 +225,26 @@ input:focus{
 </div>
 <div class="form-group col-md-5"style="margin-right:17px;margin-left:17px;">
     <label >Calle </label>
-    <input type="text" id="calle" placeholder="" class="form-control" style="width:120%;border: 2px solid ;
+    <input type="text" id="calle" placeholder="<?php echo $user["direccion_calle"] ?>" class="form-control" style="width:120%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
 
 <div class="form-group col-md-5"style="margin-right:17px;margin-left:17px;">
     <label >Numero de casa/dep</label>
-    <input type="Number" id="Num/cas" placeholder="" class="form-control" style="width:120%;border: 2px solid ;
+    <input type="Number" id="Num/cas" placeholder="<?php echo $user["apartamento"] ?>" class="form-control" style="width:120%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
 <div class="form-group col-md-5"style="margin-right:17px;margin-left:17px;">
     <label >provincia </label>
-    <input type="text" id="provinvia" placeholder="" class="form-control" style="width:120%;border: 2px solid ;
+    <input type="text" id="provinvia" placeholder="<?php echo $user["provincia"] ?>" class="form-control" style="width:120%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
 <div class="form-group col-md-5"style="margin-right:17px;margin-left:17px;">
     <label >municipio</label>
-    <input type="text" id="municipio" placeholder="Municipio" class="form-control" style="width:120%;border: 2px solid ;
+    <input type="text" id="municipio" placeholder="<?php echo $user["municipio"] ?>" class="form-control" style="width:120%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
@@ -251,7 +262,7 @@ input:focus{
 
 <div class="form-group col-md-5"style="margin-right:17px;margin-left:17px;">
     <label > tel/Oficina</label>
-    <input type="Number" id="tel/ofic" placeholder="Nombre" class="form-control" style="width:120%;border: 2px solid ;
+    <input type="Number" id="tel/ofic" placeholder="" class="form-control" style="width:120%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
@@ -263,7 +274,7 @@ input:focus{
 </div>
 <div class="form-group col-md-5"style="margin-right:17px;margin-left:17px;">
     <label >Correo Electronico</label>
-    <input type="e-mail" id="correo" placeholder="" class="form-control" style="width:120%;border: 2px solid ;
+    <input type="e-mail" id="correo" placeholder="<?php echo $user["correo_electronico"] ?>" class="form-control" style="width:120%;border: 2px solid ;
 	border-radius: 4px;
   outline: none;" >
 </div>
@@ -366,7 +377,7 @@ input:focus{
   outline: none;" >
 </div>
 </form>
-
+<?php }?>
 </div>
 
 
