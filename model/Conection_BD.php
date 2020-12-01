@@ -5,8 +5,8 @@ const DB_CHARACTER = 'utf8';
 
 abstract class Conection_BD {
 
-private static $db_usuario = 'root'; # <-- Usuario que tiene acceso a la BD.
-private static $db_pass = '';  # <-- password del usuario.
+private static $db_usuario = 'onix'; # <-- Usuario que tiene acceso a la BD.
+private static $db_pass = 'Root12345';  # <-- password del usuario.
 private static $db_servidor = 'localhost';
 private static $db_name = 'prestamos'; # <-- Nonbre de la BD.
 private static $db_charset= DB_CHARACTER;

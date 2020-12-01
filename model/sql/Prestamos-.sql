@@ -17,6 +17,7 @@ CREATE TABLE usuario(
     correo_electronico VARCHAR(55) NOT NULL,
     pass varchar (180) not null,
     estrellas INT, -- Valores del 1 al 4
+    tipo varchar (5) not null, -- (admin o user)
     CONSTRAINT PK_usuario PRIMARY KEY (id_usuario)
 );
 

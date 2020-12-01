@@ -15,46 +15,43 @@
 
 <body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
+    <?php include "../dashboard/sidebar.php"; ?>
+
 
     <div class="row">
-        <div class="col-md-5">
 
-            <div class="box box-solid box-danger">
+        <div class="col-md-6">
+            <div class="btn-group" role="group" aria-label="...">
+            <a href="../PrestamosAdmin/prestamosActivos.php" type="button" class="btn btn-default">Recientes</a>
+                <a href="../PrestamosAdmin/prestamosMes.php" type="button" class="btn btn-default">Mes</a>
+                <a href="../PrestamosAdmin/prestamosAnio.php" type="button" class="btn btn-default">Año</a>
+            </div>
+            <div class="box box-solid box-success">
                 <div class="box-header">
-                    <h3 class="box-title">Solicitudes Rechazadas</h3>
+                    <h3 class="box-title">Prestamos por año</h3>
                 </div>
-
                 <div class="box-body">
 
-                    <table class="table">
-                        <tbody>
-                        <tr>
-                                <th>Nombre</th>
-                                <th>Cantidad</th>
-                                <th>Tiempo</th>
-                                <th>Descripcion</th>
-                                <th>Fecha</th>
-
-                            </tr>
-                            <tr>
-                                <td>id_usuario_solicitante</td>
-                                <td>monto</td>
-                                <td>tiempo</td>
-                                <td>descripcion</td>
-                                <td>fecha </td>
-
-                            </tr>
-                        </tbody>
-
-                    </table>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-3">
+                            <h1><a href="vistaanual.php">2019<a/></h1>
+                        </div>
+                        <div class="col-md-3">
+                            <h1><a href="vistaanual.php">2018<a/></h1>
+                        </div>
+                    </div>
 
                 </div>
-            </div>
-        </div>
-    </div>
 
+            </div>
+
+
+        </div>
+
+
+    </div>
 
     <script src="../dist/js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"

@@ -15,18 +15,18 @@
 
 <body class="skin-green-light layout-top-nav" style=" height: auto; min-height: 100%;">
     <header class="main-header">
-        <?php include "navbardentro.php"; ?>
+        <?php include "../dashboard/navbardentro.php"; ?>
     </header>
-    <?php include "sidebar.php"; ?>
+    <?php include "../dashboard/sidebar.php"; ?>
 
 
     <div class="row ">
 
         <div class="col-md-6">
             <div class="btn-group" role="group">
-                <a href="../Dashboard/prestamosActivos.php" type="button" class="btn btn-default">Descendiente</a>
-                <a href="../Dashboard/prestamosMes.php" type="button" class="btn btn-default">Mes</a>
-                <a href="../Dashboard/prestamosAnio.php" type="button" class="btn btn-default">Año</a>
+                <a href="../PrestamosAdmin/prestamosActivos.php" type="button" class="btn btn-default">Recientes</a>
+                <a href="../PrestamosAdmin/prestamosMes.php" type="button" class="btn btn-default">Mes</a>
+                <a href="../PrestamosAdmin/prestamosAnio.php" type="button" class="btn btn-default">Año</a>
             </div>
             <div class="box box-solid box-success">
                 <div class="box-header">
@@ -76,11 +76,11 @@
                             <h1> <a href="vistamensual.php" id="diciembre">Diciembre</a></h1>
                         </div>
                     </div>
+                </div>
+
             </div>
 
         </div>
-
-    </div>
 
 
     </div>
